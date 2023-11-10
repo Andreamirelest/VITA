@@ -1,0 +1,373 @@
+#STAND BY MODE RESULTS
+Sensor 1:
+Temperature: 22.28 C
+Pressure: 1149.47 hPa
+Humidity: 57.14 %
+Gas resistance: 815 ohm
+
+Sensor 2:
+Temperature: 22.48 C
+Pressure: 989.84 hPa
+Humidity: 55.61 %
+Gas resistance: 987 ohm
+
+Sensor 1:
+Temperature: 22.24 C
+Pressure: 1353.01 hPa
+Humidity: 57.00 %
+Gas resistance: 676 ohm
+
+Sensor 2:
+Temperature: 22.44 C
+Pressure: 989.85 hPa
+Humidity: 55.41 %
+Gas resistance: 842 ohm
+
+Sensor 1:
+Temperature: 22.79 C
+Pressure: 989.60 hPa
+Humidity: 55.25 %
+Gas resistance: 710 ohm
+
+Sensor 2:
+Temperature: 22.99 C
+Pressure: 989.78 hPa
+Humidity: 53.90 %
+Gas resistance: 902 ohm
+
+Sensor 1:
+Temperature: 22.62 C
+Pressure: 989.68 hPa
+Humidity: 55.34 %
+Gas resistance: 709 ohm
+
+Sensor 2:
+Temperature: 22.80 C
+Pressure: 989.90 hPa
+Humidity: 53.78 %
+Gas resistance: 870 ohm
+
+Sensor 1:
+Temperature: 22.58 C
+Pressure: 989.66 hPa
+Humidity: 55.09 %
+Gas resistance: 620 ohm
+
+Sensor 2:
+Temperature: 22.75 C
+Pressure: 989.89 hPa
+Humidity: 53.68 %
+Gas resistance: 773 ohm
+
+Sensor 1:
+Temperature: 21.48 C
+Pressure: 991.49 hPa
+Humidity: 45.61 %
+Gas resistance: 759 ohm
+
+Sensor 2:
+Temperature: 21.62 C
+Pressure: 991.69 hPa
+Humidity: 44.54 %
+Gas resistance: 1074 ohm
+
+Sensor 1:
+Temperature: 21.36 C
+Pressure: 991.46 hPa
+Humidity: 45.36 %
+Gas resistance: 606 ohm
+
+Sensor 2:
+Temperature: 21.46 C
+Pressure: 991.70 hPa
+Humidity: 44.27 %
+Gas resistance: 866 ohm
+
+Sensor 1:
+Temperature: 21.55 C
+Pressure: 991.11 hPa
+Humidity: 47.04 %
+Gas resistance: 904 ohm
+
+Sensor 2:
+Temperature: 21.75 C
+Pressure: 991.33 hPa
+Humidity: 45.82 %
+Gas resistance: 1147 ohm
+
+Sensor 1:
+Temperature: 21.59 C
+Pressure: 991.16 hPa
+Humidity: 47.03 %
+Gas resistance: 738 ohm
+
+Sensor 2:
+Temperature: 21.79 C
+Pressure: 991.36 hPa
+Humidity: 45.68 %
+Gas resistance: 979 ohm
+
+Sensor 1:
+Temperature: 22.24 C
+Pressure: 991.08 hPa
+Humidity: 46.34 %
+Gas resistance: 1328 ohm
+
+Sensor 1:
+Temperature: 21.82 C
+Pressure: 991.01 hPa
+Humidity: 45.24 %
+Gas resistance: 2387 ohm
+
+Sensor 1:
+Temperature: 21.84 C
+Pressure: 990.93 hPa
+Humidity: 44.32 %
+Gas resistance: 1446 ohm
+
+Sensor 2:
+Temperature: 22.03 C
+Pressure: 991.15 hPa
+Humidity: 43.06 %
+Gas resistance: 2350 ohm
+
+Sensor 1:
+Temperature: 21.87 C
+Pressure: 990.88 hPa
+Humidity: 43.36 %
+Gas resistance: 1042 ohm
+
+Sensor 2:
+Temperature: 21.92 C
+Pressure: 991.05 hPa
+Humidity: 42.30 %
+Gas resistance: 1824 ohm
+
+Sensor 1:
+Temperature: 22.24 C
+Pressure: 1004.57 hPa
+Humidity: 55.05 %
+Gas resistance: 659 ohm
+
+Sensor 1:
+Temperature: 22.29 C
+Pressure: 1004.68 hPa
+Humidity: 54.87 %
+Gas resistance: 568 ohm
+
+Sensor 1:
+Temperature: 25.01 C
+Pressure: 1013.93 hPa
+Humidity: 56.20 %
+Gas resistance: 619 ohm
+
+Sensor 1:
+Temperature: 24.54 C
+Pressure: 1015.20 hPa
+Humidity: 44.61 %
+Gas resistance: 804 ohm
+
+Sensor 2:
+Temperature: 24.66 C
+Pressure: 1015.43 hPa
+Humidity: 43.70 %
+Gas resistance: 1203 ohm
+
+Sensor 1:
+Temperature: 24.45 C
+Pressure: 1015.23 hPa
+Humidity: 44.61 %
+Gas resistance: 612 ohm
+
+Sensor 2:
+Temperature: 24.57 C
+Pressure: 1015.44 hPa
+Humidity: 43.62 %
+Gas resistance: 900 ohm
+
+Sensor 1:
+Temperature: 24.36 C
+Pressure: 1015.20 hPa
+Humidity: 44.93 %
+Gas resistance: 568 ohm
+
+Sensor 2:
+Temperature: 24.47 C
+Pressure: 1015.40 hPa
+Humidity: 43.90 %
+Gas resistance: 682 ohm
+
+Sensor 1:
+Temperature: 23.97 C
+Pressure: 1019.15 hPa
+Humidity: 47.04 %
+Gas resistance: 857 ohm
+
+Sensor 1:
+Temperature: 24.69 C
+Pressure: 1019.15 hPa
+Humidity: 49.95 %
+Gas resistance: 644 ohm
+
+Sensor 2:
+Temperature: 24.81 C
+Pressure: 1019.40 hPa
+Humidity: 49.64 %
+Gas resistance: 1065 ohm
+
+Sensor 1:
+Temperature: 24.69 C
+Pressure: 1019.18 hPa
+Humidity: 46.77 %
+Gas resistance: 568 ohm
+
+Sensor 2:
+Temperature: 24.85 C
+Pressure: 1019.40 hPa
+Humidity: 46.27 %
+Gas resistance: 823 ohm
+
+Sensor 1:
+Temperature: 24.57 C
+Pressure: 1018.94 hPa
+Humidity: 45.20 %
+Gas resistance: 650 ohm
+
+Sensor 2:
+Temperature: 24.63 C
+Pressure: 1019.13 hPa
+Humidity: 44.25 %
+Gas resistance: 912 ohm
+
+Sensor 1:
+Temperature: 24.67 C
+Pressure: 1018.86 hPa
+Humidity: 44.57 %
+Gas resistance: 568 ohm
+
+Sensor 2:
+Temperature: 24.73 C
+Pressure: 1019.18 hPa
+Humidity: 43.69 %
+Gas resistance: 776 ohm
+
+Sensor 1:
+Temperature: 24.66 C
+Pressure: 1018.92 hPa
+Humidity: 44.38 %
+Gas resistance: 568 ohm
+
+Sensor 2:
+Temperature: 24.73 C
+Pressure: 1019.15 hPa
+Humidity: 43.47 %
+Gas resistance: 705 ohm
+
+Sensor 1:
+Temperature: 24.13 C
+Pressure: 1010.66 hPa
+Humidity: 36.04 %
+Gas resistance: 1068 ohm
+
+Sensor 2:
+Temperature: 24.20 C
+Pressure: 1010.86 hPa
+Humidity: 35.15 %
+Gas resistance: 1376 ohm
+
+Sensor 1:
+Temperature: 25.19 C
+Pressure: 993.85 hPa
+Humidity: 49.99 %
+Gas resistance: 1572 ohm
+
+Sensor 2:
+Temperature: 25.13 C
+Pressure: 994.08 hPa
+Humidity: 49.13 %
+Gas resistance: 2634 ohm
+
+Sensor 1:
+Temperature: 24.65 C
+Pressure: 993.64 hPa
+Humidity: 51.69 %
+Gas resistance: 1017 ohm
+
+Sensor 2:
+Temperature: 24.75 C
+Pressure: 993.91 hPa
+Humidity: 50.47 %
+Gas resistance: 2406 ohm
+
+Sensor 1:
+Temperature: 24.82 C
+Pressure: 993.64 hPa
+Humidity: 51.71 %
+Gas resistance: 815 ohm
+
+Sensor 2:
+Temperature: 24.82 C
+Pressure: 993.89 hPa
+Humidity: 50.69 %
+Gas resistance: 2369 ohm
+
+Sensor 1:
+Temperature: 25.73 C
+Pressure: 979.65 hPa
+Humidity: 49.00 %
+Gas resistance: 1412 ohm
+
+Sensor 2:
+Temperature: 25.78 C
+Pressure: 979.89 hPa
+Humidity: 47.99 %
+Gas resistance: 1829 ohm
+
+Sensor 1:
+Temperature: 25.34 C
+Pressure: 979.05 hPa
+Humidity: 50.33 %
+Gas resistance: 1560 ohm
+
+Sensor 2:
+Temperature: 25.38 C
+Pressure: 979.32 hPa
+Humidity: 49.40 %
+Gas resistance: 2151 ohm
+
+Sensor 1:
+Temperature: 25.39 C
+Pressure: 979.06 hPa
+Humidity: 50.15 %
+Gas resistance: 1014 ohm
+
+Sensor 2:
+Temperature: 25.43 C
+Pressure: 979.30 hPa
+Humidity: 49.17 %
+Gas resistance: 1654 ohm
+
+Sensor 1:
+Temperature: 25.40 C
+Pressure: 979.07 hPa
+Humidity: 49.92 %
+Gas resistance: 781 ohm
+
+Sensor 2:
+Temperature: 25.40 C
+Pressure: 979.30 hPa
+Humidity: 48.99 %
+Gas resistance: 1473 ohm
+
+Sensor 1:
+Temperature: 21.06 C
+Pressure: 997.54 hPa
+Humidity: 50.32 %
+Gas resistance: 1974 ohm
+
+Sensor 2:
+Temperature: 21.16 C
+Pressure: 997.75 hPa
+Humidity: 49.13 %
+Gas resistance: 2421 ohm
+
