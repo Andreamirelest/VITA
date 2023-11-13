@@ -1,0 +1,67 @@
+#ALL MODES CODE EDITED FROM GITHUB '
+
+
+# IMPORTS 
+
+import sys
+import os
+
+#CODE FILES 
+code_files = ["STANDBYMODE.py", "REHYDRATIONMODE.py", "SCIENCEMODE.py", "DECOMMISSIONMODE.py"]
+
+
+def run_code(filename):
+    try:
+        os.system(f"python {filename}")
+        return True
+    except BaseException as e:
+        print(f"An error has occurred in {filename}: {e}")
+        if isinstance(e, SystemExit):
+            print("Error type: SystemExit")
+        elif isinstance(e, KeyboardInterrupt):
+            print("Error type: KeyboardInterrupt")
+        elif isinstance(e, GeneratorExit):
+            print("Error type: GeneratorExit")
+        elif isinstance(e, Exception):
+            print("Error type: Exception")
+        return False
+
+def main():
+    while True:
+        input("Press enter to start\n")
+        print("Safe Mode will start as the default mode")
+
+        if run_code("SAFEMODE.py"):
+            choice = input("SAFE MODE HAS BEEN COMPLETED! WOULD YOU LIKE TO CONTINUE TO STANDBY MODE? (yes/no):").lower()
+
+        if choice == "yes":
+            if not run_code("STANDBYMODE.py"):
+                print("Error occurred in STANDBYMODE.py. SAFE MODE WILL START AS THE DEFAULT MODE.")
+                run_code("SAFEMODE.py")
+
+            choice = input("STANDBY MODE HAS BEEN SUCCESSFUL! WOULD YOU LIKE TO CONTINUE TO REHYDRATION MODE? (yes/no):").lower()
+
+        if choice == "yes":
+            run_code("REHYDRATIONMODE.py")
+
+            choice = input("REHYDRATION MODE HAS BEEN SUCCESSFUL! WOULD YOU LIKE TO CONTINUE TO SCIENCE MODE? (yes/no):").lower()
+
+        if choice == "yes":
+            run_code("SCIENCEMODE.py")
+            choice = input("SCIENCE MODE HAS BEEN COMPLETED SUCCESSFULLY! WOULD YOU LIKE TO CONTINUE TO DECOMMISSION MODE? (yes/no):").lower()
+
+        if choice == "yes":
+            run_code("DECOMMISSIONMODE.py")
+
+            print("ALL MODES HAVE BEEN SUCCESSFUL!")
+
+        elif choice == "no":
+            while True:
+                code_choice = input("Which mode would you like to continue to? (SAFE/STANDBY/REHYDRATION/SCIENCE/DECOMMISSION):").upper()
+                if code_choice in ["SAFE", "STANDBY", "REHYDRATION", "SCIENCE", "DECOMMISSION"]:
+                    run_code(f"{code_choice.upper()}MODE.py")
+                else:
+                    print("Invalid choice. Please choose a valid mode.")
+```
+
+This code will catch and print the specific error type when one of the specified exceptions occurs during code execution.
