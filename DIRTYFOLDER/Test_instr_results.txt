@@ -1,0 +1,3572 @@
+
+Time: 1689530250 
+sfGFP -515: 184 
+F5 -555nm: 107
+
+Time: 1689530254 
+sfGFP -515: 184 
+F5 -555nm: 107
+
+Time: 1689530257 
+sfGFP -515: 184 
+F5 -555nm: 107
+
+Time: 1689530261 
+sfGFP -515: 185 
+F5 -555nm: 107
+
+Time: 1689530265 
+sfGFP -515: 184 
+F5 -555nm: 107
+
+Time: 1689530268 
+sfGFP -515: 185 
+F5 -555nm: 107
+
+Time: 1689530272 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530276 
+sfGFP -515: 0 
+F5 -555nm: 19
+
+Time: 1689530279 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530283 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530287 
+sfGFP -515: 0 
+F5 -555nm: 19
+
+Time: 1689530290 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530294 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530298 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530301 
+sfGFP -515: 0 
+F5 -555nm: 20
+
+Time: 1689530357 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530361 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530365 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530368 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530372 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530375 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530379 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530383 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689530386 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530390 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530394 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530397 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530401 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530405 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530408 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530412 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530416 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530419 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530423 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530427 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530430 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530434 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689530437 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530441 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530445 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530448 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530452 
+sfGFP -515: 183 
+F5 -555nm: 106
+
+Time: 1689530456 
+sfGFP -515: 182 
+F5 -555nm: 106
+
+Time: 1689531292 
+sfGFP -515: 0 
+F5 -555nm: 105
+
+Time: 1689531296 
+sfGFP -515: 181 
+F5 -555nm: 105
+
+Time: 1689531300 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531303 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531307 
+sfGFP -515: 181 
+F5 -555nm: 105
+
+Time: 1689531311 
+sfGFP -515: 181 
+F5 -555nm: 105
+
+Time: 1689531314 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531318 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531322 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531325 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531329 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531332 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531336 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531340 
+sfGFP -515: 182 
+F5 -555nm: 105
+
+Time: 1689531448 
+sfGFP -515: 0 
+F5 -555nm: 199
+
+Time: 1689531452 
+sfGFP -515: 345 
+F5 -555nm: 192
+
+Time: 1689531455 
+sfGFP -515: 339 
+F5 -555nm: 199
+
+Time: 1689531459 
+sfGFP -515: 341 
+F5 -555nm: 199
+
+Time: 1689531463 
+sfGFP -515: 340 
+F5 -555nm: 196
+
+Time: 1689531466 
+sfGFP -515: 314 
+F5 -555nm: 155
+
+Time: 1689531470 
+sfGFP -515: 314 
+F5 -555nm: 156
+
+Time: 1689531474 
+sfGFP -515: 315 
+F5 -555nm: 156
+
+Time: 1689531477 
+sfGFP -515: 314 
+F5 -555nm: 156
+
+Time: 1689531481 
+sfGFP -515: 315 
+F5 -555nm: 156
+
+Time: 1689531485 
+sfGFP -515: 315 
+F5 -555nm: 156
+
+Time: 1689531488 
+sfGFP -515: 315 
+F5 -555nm: 156
+
+Time: 1689531492 
+sfGFP -515: 314 
+F5 -555nm: 156
+
+Time: 1689531496 
+sfGFP -515: 323 
+F5 -555nm: 154
+
+Time: 1689531499 
+sfGFP -515: 240 
+F5 -555nm: 131
+
+Time: 1689531503 
+sfGFP -515: 215 
+F5 -555nm: 128
+
+Time: 1689531507 
+sfGFP -515: 238 
+F5 -555nm: 133
+
+Time: 1689531510 
+sfGFP -515: 246 
+F5 -555nm: 135
+
+Time: 1689531514 
+sfGFP -515: 249 
+F5 -555nm: 135
+
+Time: 1689531517 
+sfGFP -515: 252 
+F5 -555nm: 137
+
+Time: 1689531521 
+sfGFP -515: 254 
+F5 -555nm: 138
+
+Time: 1689531525 
+sfGFP -515: 256 
+F5 -555nm: 138
+
+Time: 1689531528 
+sfGFP -515: 258 
+F5 -555nm: 139
+
+Time: 1689531532 
+sfGFP -515: 259 
+F5 -555nm: 139
+
+Time: 1689531536 
+sfGFP -515: 259 
+F5 -555nm: 140
+
+Time: 1689531539 
+sfGFP -515: 261 
+F5 -555nm: 140
+
+Time: 1689531543 
+sfGFP -515: 262 
+F5 -555nm: 141
+
+Time: 1689531547 
+sfGFP -515: 262 
+F5 -555nm: 141
+
+Time: 1689531550 
+sfGFP -515: 263 
+F5 -555nm: 141
+
+Time: 1689531554 
+sfGFP -515: 264 
+F5 -555nm: 141
+
+Time: 1689531558 
+sfGFP -515: 264 
+F5 -555nm: 142
+
+Time: 1689531561 
+sfGFP -515: 265 
+F5 -555nm: 142
+
+Time: 1689531565 
+sfGFP -515: 265 
+F5 -555nm: 142
+
+Time: 1689531568 
+sfGFP -515: 266 
+F5 -555nm: 142
+
+Time: 1689531572 
+sfGFP -515: 266 
+F5 -555nm: 142
+
+Time: 1689531576 
+sfGFP -515: 266 
+F5 -555nm: 143
+
+ Time: 1689537593 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537593 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537594 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537595 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537595 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537596 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537597 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537597 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537598 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537598 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537599 
+sfGFP -515 nm: 372 
+F5  -555nm: 220
+
+ Time: 1689537600 
+sfGFP -515 nm: 372 
+F5  -555nm: 220
+
+ Time: 1689537600 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537601 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537602 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537602 
+sfGFP -515 nm: 372 
+F5  -555nm: 220
+
+ Time: 1689537603 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537604 
+sfGFP -515 nm: 372 
+F5  -555nm: 221
+
+ Time: 1689537604 
+sfGFP -515 nm: 372 
+F5  -555nm: 220
+
+ Time: 1689537778 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537778 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537779 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537779 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537780 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537781 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537781 
+sfGFP -515 nm: 372 
+F5  -555nm: 71
+
+ Time: 1689537802 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537803 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537804 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537804 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537805 
+sfGFP -515 nm: 372 
+F5  -555nm: 19
+
+ Time: 1689537806 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537806 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537807 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537807 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537808 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537809 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537809 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537810 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537811 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537811 
+sfGFP -515 nm: 372 
+F5  -555nm: 27
+
+ Time: 1689537812 
+sfGFP -515 nm: 372 
+F5  -555nm: 32
+
+ Time: 1689537813 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537813 
+sfGFP -515 nm: 372 
+F5  -555nm: 20
+
+ Time: 1689537870 
+sfGFP -515 nm: 372 
+F5  -555nm: 19
+
+ Time: 1689537873 
+sfGFP -515 nm: 1 
+F5  -555nm: 19
+
+ Time: 1689537877 
+sfGFP -515 nm: 1 
+F5  -555nm: 19
+
+ Time: 1689537881 
+sfGFP -515 nm: 1 
+F5  -555nm: 19
+
+ Time: 1689537884 
+sfGFP -515 nm: 1 
+F5  -555nm: 19
+
+ Time: 1689537888 
+sfGFP -515 nm: 1 
+F5  -555nm: 19
+
+ Time: 1689537891 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537895 
+sfGFP -515 nm: 0 
+F5  -555nm: 22
+
+ Time: 1689537899 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537902 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537906 
+sfGFP -515 nm: 0 
+F5  -555nm: 22
+
+ Time: 1689537910 
+sfGFP -515 nm: 1 
+F5  -555nm: 27
+
+ Time: 1689537913 
+sfGFP -515 nm: 38 
+F5  -555nm: 95
+
+ Time: 1689537917 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537921 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537924 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537928 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537932 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+ Time: 1689537935 
+sfGFP -515 nm: 1 
+F5  -555nm: 22
+
+Time: 1689537945 
+sfGFP -515 nm: 1 
+F5 -555nm: 22
+
+Time: 1689537949 
+sfGFP -515 nm: 1 
+F5 -555nm: 22
+
+Time: 1689537953 
+sfGFP -515 nm: 1 
+F5 -555nm: 22
+
+Time: 1689537956 
+sfGFP -515 nm: 1 
+F5 -555nm: 22
+
+Time: 1689537979 
+sfGFP -515 nm: 370 
+F5 -555nm: 182
+
+Time: 1689537982 
+sfGFP -515 nm: 371 
+F5 -555nm: 182
+
+Time: 1689537986 
+sfGFP -515 nm: 371 
+F5 -555nm: 181
+
+Time: 1689537990 
+sfGFP -515 nm: 370 
+F5 -555nm: 181
+
+Time: 1689537993 
+sfGFP -515 nm: 370 
+F5 -555nm: 181
+
+Time: 1689537997 
+sfGFP -515 nm: 371 
+F5 -555nm: 182
+
+Time: 1689538001 
+sfGFP -515 nm: 370 
+F5 -555nm: 181
+
+Time: 1689538004 
+sfGFP -515 nm: 372 
+F5 -555nm: 182
+
+Time: 1689538008 
+sfGFP -515 nm: 397 
+F5 -555nm: 244
+
+Time: 1689538012 
+sfGFP -515 nm: 371 
+F5 -555nm: 182
+
+Time: 1689538015 
+sfGFP -515 nm: 372 
+F5 -555nm: 182
+
+Time: 1689538019 
+sfGFP -515 nm: 372 
+F5 -555nm: 182
+
+Time: 1689538023 
+sfGFP -515 nm: 371 
+F5 -555nm: 182
+
+Time: 1689538026 
+sfGFP -515 nm: 371 
+F5 -555nm: 182
+
+ Time: 1689538277 
+sfGFP -515 nm: 371 
+F5  -555nm: 69
+
+ Time: 1689538281 
+sfGFP -515 nm: 26 
+F5  -555nm: 70
+
+ Time: 1689538285 
+sfGFP -515 nm: 26 
+F5  -555nm: 70
+
+ Time: 1689538288 
+sfGFP -515 nm: 26 
+F5  -555nm: 69
+
+ Time: 1689538433 
+sfGFP -515 nm: 26 
+F5  -555nm: 69
+
+ Time: 1689538437 
+sfGFP -515 nm: 26 
+F5  -555nm: 69
+
+ Time: 1689538595 
+sfGFP -515 nm: 0 
+F5  -555nm: 10
+
+ Time: 1689538598 
+sfGFP -515 nm: 0 
+F5  -555nm: 10
+
+ Time: 1689538602 
+sfGFP -515 nm: 0 
+F5  -555nm: 10
+
+Time: 1689538635 
+sfGFP -515 nm: 203 
+F5 -555nm: 126
+
+Time: 1689538638 
+sfGFP -515 nm: 204 
+F5 -555nm: 126
+
+Time: 1689538642 
+sfGFP -515 nm: 203 
+F5 -555nm: 125
+
+Time: 1689538646 
+sfGFP -515 nm: 202 
+F5 -555nm: 125
+
+Time: 1689538649 
+sfGFP -515 nm: 204 
+F5 -555nm: 126
+
+Time: 1689538653 
+sfGFP -515 nm: 204 
+F5 -555nm: 127
+
+Time: 1689538657 
+sfGFP -515 nm: 205 
+F5 -555nm: 127
+
+Time: 1689538660 
+sfGFP -515 nm: 204 
+F5 -555nm: 127
+
+Time: 1689538664 
+sfGFP -515 nm: 204 
+F5 -555nm: 127
+
+ Time: 1689538953 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538957 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538960 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538964 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538968 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538971 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538975 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538979 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538982 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538986 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+ Time: 1689538990 
+sfGFP -515 nm: 0 
+F5  -555nm: 9
+
+Time: 1689539068 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539072 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539076 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539079 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539083 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539087 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539090 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539094 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539097 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539101 
+sfGFP -515 nm: 120 
+F5 -555nm: 72
+
+Time: 1689539198 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539202 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539206 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539209 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539213 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539217 
+sfGFP -515 nm: 112 
+F5 -555nm: 83
+
+Time: 1689539220 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+Time: 1689539224 
+sfGFP -515 nm: 112 
+F5 -555nm: 84
+
+ Time: 1689539791 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539795 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539798 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539802 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539806 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539809 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539813 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539817 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689539924 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+Time: 1689539966 
+sfGFP -515 nm: 67 
+F5 -555nm: 45
+
+Time: 1689539970 
+sfGFP -515 nm: 83 
+F5 -555nm: 61
+
+Time: 1689539973 
+sfGFP -515 nm: 89 
+F5 -555nm: 65
+
+Time: 1689539977 
+sfGFP -515 nm: 92 
+F5 -555nm: 66
+
+Time: 1689539981 
+sfGFP -515 nm: 93 
+F5 -555nm: 67
+
+Time: 1689539984 
+sfGFP -515 nm: 93 
+F5 -555nm: 66
+
+Time: 1689539988 
+sfGFP -515 nm: 93 
+F5 -555nm: 67
+
+Time: 1689539992 
+sfGFP -515 nm: 94 
+F5 -555nm: 67
+
+Time: 1689539995 
+sfGFP -515 nm: 95 
+F5 -555nm: 67
+
+Time: 1689539999 
+sfGFP -515 nm: 95 
+F5 -555nm: 68
+
+Time: 1689540003 
+sfGFP -515 nm: 95 
+F5 -555nm: 68
+
+Time: 1689540006 
+sfGFP -515 nm: 96 
+F5 -555nm: 68
+
+Time: 1689540010 
+sfGFP -515 nm: 96 
+F5 -555nm: 69
+
+Time: 1689540013 
+sfGFP -515 nm: 97 
+F5 -555nm: 69
+
+Time: 1689540017 
+sfGFP -515 nm: 97 
+F5 -555nm: 70
+
+Time: 1689540021 
+sfGFP -515 nm: 97 
+F5 -555nm: 70
+
+Time: 1689540024 
+sfGFP -515 nm: 97 
+F5 -555nm: 70
+
+Time: 1689540028 
+sfGFP -515 nm: 97 
+F5 -555nm: 70
+
+Time: 1689540032 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540035 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540039 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540043 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540046 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540050 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540054 
+sfGFP -515 nm: 98 
+F5 -555nm: 71
+
+Time: 1689540057 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540061 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540064 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540068 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540072 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540075 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540079 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540083 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540086 
+sfGFP -515 nm: 99 
+F5 -555nm: 71
+
+Time: 1689540090 
+sfGFP -515 nm: 99 
+F5 -555nm: 71
+
+Time: 1689540094 
+sfGFP -515 nm: 99 
+F5 -555nm: 71
+
+ Time: 1689540114 
+sfGFP -515 nm: 100 
+F5  -555nm: 0
+
+ Time: 1689540117 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+ Time: 1689540121 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+Time: 1689540179 
+sfGFP -515 nm: 101 
+F5 -555nm: 72
+
+Time: 1689540183 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540186 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540190 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540193 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540197 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540201 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540204 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540208 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540212 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540215 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540219 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540223 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+ Time: 1689540434 
+sfGFP -515 nm: 0 
+F5  -555nm: 0
+
+Time: 1689540444 
+sfGFP -515 nm: 97 
+F5 -555nm: 69
+
+Time: 1689540450 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540455 
+sfGFP -515 nm: 98 
+F5 -555nm: 70
+
+Time: 1689540461 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540466 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540472 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540478 
+sfGFP -515 nm: 99 
+F5 -555nm: 71
+
+Time: 1689540483 
+sfGFP -515 nm: 99 
+F5 -555nm: 70
+
+Time: 1689540489 
+sfGFP -515 nm: 101 
+F5 -555nm: 72
+
+Time: 1689540495 
+sfGFP -515 nm: 101 
+F5 -555nm: 72
+
+Time: 1689540500 
+sfGFP -515 nm: 102 
+F5 -555nm: 72
+
+Time: 1689540506 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540512 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540517 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540523 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540529 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540534 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540540 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540546 
+sfGFP -515 nm: 103 
+F5 -555nm: 73
+
+Time: 1689540551 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540591 
+sfGFP -515 nm: 102 
+F5 -555nm: 73
+
+Time: 1689540597 
+sfGFP -515 nm: 103 
+F5 -555nm: 74
+
+Time: 1689540603 
+sfGFP -515 nm: 103 
+F5 -555nm: 73
+
+Time: 1689540608 
+sfGFP -515 nm: 103 
+F5 -555nm: 73
+
+Time: 1689540614 
+sfGFP -515 nm: 103 
+F5 -555nm: 73
+
+Time: 1689540799 
+sfGFP -515 nm: 0 
+F5 -555nm: 77
+
+Time: 1689540803 
+sfGFP -515 nm: 106 
+F5 -555nm: 77
+
+Time: 1689540806 
+sfGFP -515 nm: 106 
+F5 -555nm: 76
+
+Time: 1689540810 
+sfGFP -515 nm: 106 
+F5 -555nm: 76
+
+Time: 1689540814 
+sfGFP -515 nm: 106 
+F5 -555nm: 76
+
+Time: 1689540817 
+sfGFP -515 nm: 107 
+F5 -555nm: 76
+
+Time: 1689540905 
+sfGFP -515 nm: 152 
+F5 -555nm: 96
+
+Time: 1689540908 
+sfGFP -515 nm: 152 
+F5 -555nm: 96
+
+Time: 1689540912 
+sfGFP -515 nm: 153 
+F5 -555nm: 96
+
+Time: 1689540916 
+sfGFP -515 nm: 153 
+F5 -555nm: 96
+
+Time: 1689540919 
+sfGFP -515 nm: 153 
+F5 -555nm: 96
+
+Time: 1689540923 
+sfGFP -515 nm: 153 
+F5 -555nm: 95
+
+Time: 1689540927 
+sfGFP -515 nm: 153 
+F5 -555nm: 95
+
+Time: 1689540930 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540934 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540937 
+sfGFP -515 nm: 154 
+F5 -555nm: 96
+
+Time: 1689540941 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540945 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540948 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540952 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540956 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540959 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540963 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540967 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540970 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540974 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540978 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540981 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540985 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540989 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540992 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540996 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689540999 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541003 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541007 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541010 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541014 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541018 
+sfGFP -515 nm: 155 
+F5 -555nm: 95
+
+Time: 1689541021 
+sfGFP -515 nm: 155 
+F5 -555nm: 95
+
+Time: 1689541025 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541029 
+sfGFP -515 nm: 155 
+F5 -555nm: 95
+
+Time: 1689541032 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541036 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541040 
+sfGFP -515 nm: 155 
+F5 -555nm: 95
+
+Time: 1689541043 
+sfGFP -515 nm: 154 
+F5 -555nm: 95
+
+Time: 1689541047 
+sfGFP -515 nm: 155 
+F5 -555nm: 99
+
+Time: 1699647635 
+sfGFP -515 nm: 0 
+F5 -555nm: 367
+
+Time: 1699647639 
+sfGFP -515 nm: 686 
+F5 -555nm: 368
+
+ Time: 1699647700 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647705 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647709 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647714 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647719 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647723 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647728 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647733 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647737 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647742 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647747 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647751 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647756 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647761 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647765 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647770 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647774 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647779 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647784 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647788 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647793 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647798 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647802 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647807 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647812 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647816 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647821 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647826 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647830 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647835 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647840 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647844 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647849 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699647853 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647858 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699647863 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+Time: 1699647887 
+sfGFP -515 nm: 0 
+F5 -555nm: 354
+
+Time: 1699647891 
+sfGFP -515 nm: 679 
+F5 -555nm: 354
+
+Time: 1699647895 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647898 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647902 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647906 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647909 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647913 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647917 
+sfGFP -515 nm: 680 
+F5 -555nm: 355
+
+Time: 1699647920 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647924 
+sfGFP -515 nm: 679 
+F5 -555nm: 355
+
+Time: 1699647928 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647931 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647935 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647939 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647942 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647946 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647949 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647953 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647957 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647960 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647964 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647968 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647971 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647975 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647979 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647982 
+sfGFP -515 nm: 679 
+F5 -555nm: 356
+
+Time: 1699647986 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647990 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647993 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699647997 
+sfGFP -515 nm: 680 
+F5 -555nm: 355
+
+Time: 1699648000 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648004 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648008 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648011 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648015 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648019 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648022 
+sfGFP -515 nm: 680 
+F5 -555nm: 357
+
+Time: 1699648026 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648030 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648033 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648037 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+Time: 1699648041 
+sfGFP -515 nm: 681 
+F5 -555nm: 356
+
+Time: 1699648044 
+sfGFP -515 nm: 680 
+F5 -555nm: 356
+
+ Time: 1699648052 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699648457 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+Time: 1699648470 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648474 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648477 
+sfGFP -515 nm: 542 
+F5 -555nm: 283
+
+Time: 1699648481 
+sfGFP -515 nm: 540 
+F5 -555nm: 283
+
+Time: 1699648485 
+sfGFP -515 nm: 540 
+F5 -555nm: 283
+
+Time: 1699648488 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648492 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648495 
+sfGFP -515 nm: 540 
+F5 -555nm: 283
+
+Time: 1699648499 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648503 
+sfGFP -515 nm: 541 
+F5 -555nm: 283
+
+Time: 1699648506 
+sfGFP -515 nm: 540 
+F5 -555nm: 284
+
+Time: 1699648510 
+sfGFP -515 nm: 559 
+F5 -555nm: 319
+
+Time: 1699648514 
+sfGFP -515 nm: 556 
+F5 -555nm: 315
+
+ Time: 1699648538 
+sfGFP -515 nm: 15 
+F5  -555nm: 29
+
+Time: 1699649421 
+sfGFP -515 nm: 1954 
+F5 -555nm: 1021
+
+Time: 1699649425 
+sfGFP -515 nm: 1916 
+F5 -555nm: 999
+
+ Time: 1699649452 
+sfGFP -515 nm: 1945 
+F5  -555nm: 1
+
+ Time: 1699649457 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699649461 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649466 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649471 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649475 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699649480 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649485 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699649489 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649494 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699649499 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649503 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+ Time: 1699649508 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649512 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649517 
+sfGFP -515 nm: 0 
+F5  -555nm: 1
+
+ Time: 1699649522 
+sfGFP -515 nm: 0 
+F5  -555nm: 2
+
+Time: 1699649533 
+sfGFP -515 nm: 1944 
+F5 -555nm: 1001
+
+Time: 1699649537 
+sfGFP -515 nm: 1945 
+F5 -555nm: 1003
+
+Time: 1699649541 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1005
+
+Time: 1699649544 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1005
+
+Time: 1699649548 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1006
+
+Time: 1699649552 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1007
+
+Time: 1699649555 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1007
+
+Time: 1699649559 
+sfGFP -515 nm: 1946 
+F5 -555nm: 1008
+
+Time: 1699649563 
+sfGFP -515 nm: 1945 
+F5 -555nm: 1009
+
+Time: 1699649566 
+sfGFP -515 nm: 1936 
+F5 -555nm: 978
+
+Time: 1699649570 
+sfGFP -515 nm: 699 
+F5 -555nm: 338
+
+Time: 1699649574 
+sfGFP -515 nm: 700 
+F5 -555nm: 339
+
+Time: 1699649577 
+sfGFP -515 nm: 699 
+F5 -555nm: 339
+
+Time: 1699649581 
+sfGFP -515 nm: 700 
+F5 -555nm: 339
+
+Time: 1699649584 
+sfGFP -515 nm: 700 
+F5 -555nm: 339
+
+Time: 1699649588 
+sfGFP -515 nm: 700 
+F5 -555nm: 339
+
+Time: 1699649592 
+sfGFP -515 nm: 700 
+F5 -555nm: 340
+
+Time: 1699649595 
+sfGFP -515 nm: 695 
+F5 -555nm: 976
+
+Time: 1699649599 
+sfGFP -515 nm: 1909 
+F5 -555nm: 981
+
+Time: 1699649603 
+sfGFP -515 nm: 1209 
+F5 -555nm: 657
+
+Time: 1699649606 
+sfGFP -515 nm: 1210 
+F5 -555nm: 658
+
+Time: 1699649610 
+sfGFP -515 nm: 1209 
+F5 -555nm: 659
+
+Time: 1699649614 
+sfGFP -515 nm: 1209 
+F5 -555nm: 685
+
+Time: 1699649617 
+sfGFP -515 nm: 1425 
+F5 -555nm: 811
+
+Time: 1699649621 
+sfGFP -515 nm: 1396 
+F5 -555nm: 763
+
+Time: 1699649625 
+sfGFP -515 nm: 1261 
+F5 -555nm: 689
+
+Time: 1699649628 
+sfGFP -515 nm: 1260 
+F5 -555nm: 689
+
+Time: 1699649632 
+sfGFP -515 nm: 1251 
+F5 -555nm: 666
+
+Time: 1699649636 
+sfGFP -515 nm: 1278 
+F5 -555nm: 673
+
+Time: 1699649639 
+sfGFP -515 nm: 1215 
+F5 -555nm: 668
+
+Time: 1699649643 
+sfGFP -515 nm: 1251 
+F5 -555nm: 668
+
+Time: 1699649646 
+sfGFP -515 nm: 1250 
+F5 -555nm: 668
+
+Time: 1699649650 
+sfGFP -515 nm: 1251 
+F5 -555nm: 669
+
+Time: 1699649654 
+sfGFP -515 nm: 1251 
+F5 -555nm: 668
+
+Time: 1699649657 
+sfGFP -515 nm: 1250 
+F5 -555nm: 668
+
+Time: 1699649661 
+sfGFP -515 nm: 1250 
+F5 -555nm: 669
+
+Time: 1699649665 
+sfGFP -515 nm: 1251 
+F5 -555nm: 669
+
+Time: 1699649668 
+sfGFP -515 nm: 1250 
+F5 -555nm: 668
+
+Time: 1699649672 
+sfGFP -515 nm: 1250 
+F5 -555nm: 669
+
+Time: 1699649676 
+sfGFP -515 nm: 1251 
+F5 -555nm: 669
+
+Time: 1699649679 
+sfGFP -515 nm: 1251 
+F5 -555nm: 669
+
+Time: 1699649683 
+sfGFP -515 nm: 1250 
+F5 -555nm: 668
+
+Time: 1699649687 
+sfGFP -515 nm: 1250 
+F5 -555nm: 669
+
+Time: 1699649690 
+sfGFP -515 nm: 1250 
+F5 -555nm: 669
+
+Time: 1699649694 
+sfGFP -515 nm: 1250 
+F5 -555nm: 669
+
+Time: 1699649697 
+sfGFP -515 nm: 1251 
+F5 -555nm: 669
+
+Time: 1699649701 
+sfGFP -515 nm: 1190 
+F5 -555nm: 685
+
+Time: 1699649705 
+sfGFP -515 nm: 1348 
+F5 -555nm: 714
+
+Time: 1699649708 
+sfGFP -515 nm: 1343 
+F5 -555nm: 796
+
+Time: 1699649712 
+sfGFP -515 nm: 1531 
+F5 -555nm: 892
+
+Time: 1699649716 
+sfGFP -515 nm: 1573 
+F5 -555nm: 942
+
+Time: 1699649719 
+sfGFP -515 nm: 1173 
+F5 -555nm: 624
+
+Time: 1699649723 
+sfGFP -515 nm: 1214 
+F5 -555nm: 648
+
+Time: 1699649727 
+sfGFP -515 nm: 1167 
+F5 -555nm: 582
+
+Time: 1699649730 
+sfGFP -515 nm: 1199 
+F5 -555nm: 637
+
+Time: 1699649734 
+sfGFP -515 nm: 1216 
+F5 -555nm: 648
+
+Time: 1699649738 
+sfGFP -515 nm: 1180 
+F5 -555nm: 659
+
+Time: 1699649741 
+sfGFP -515 nm: 1253 
+F5 -555nm: 673
+
+Time: 1699649745 
+sfGFP -515 nm: 1253 
+F5 -555nm: 674
+
+Time: 1699649749 
+sfGFP -515 nm: 1253 
+F5 -555nm: 673
+
+Time: 1699649752 
+sfGFP -515 nm: 1252 
+F5 -555nm: 674
+
+Time: 1699649756 
+sfGFP -515 nm: 1239 
+F5 -555nm: 674
+
+Time: 1699649759 
+sfGFP -515 nm: 1270 
+F5 -555nm: 682
+
+Time: 1699649763 
+sfGFP -515 nm: 1931 
+F5 -555nm: 1022
+
+Time: 1699649767 
+sfGFP -515 nm: 1969 
+F5 -555nm: 1023
+
+Time: 1699649770 
+sfGFP -515 nm: 1969 
+F5 -555nm: 1023
+
+Time: 1699649774 
+sfGFP -515 nm: 1991 
+F5 -555nm: 1044
+
+Time: 1699649778 
+sfGFP -515 nm: 690 
+F5 -555nm: 336
+
+Time: 1699649781 
+sfGFP -515 nm: 689 
+F5 -555nm: 336
+
+Time: 1699649785 
+sfGFP -515 nm: 674 
+F5 -555nm: 328
+
+Time: 1699649789 
+sfGFP -515 nm: 684 
+F5 -555nm: 333
+
+Time: 1699649792 
+sfGFP -515 nm: 1949 
+F5 -555nm: 1018
+
+Time: 1699649796 
+sfGFP -515 nm: 1935 
+F5 -555nm: 996
+
+Time: 1699649800 
+sfGFP -515 nm: 1257 
+F5 -555nm: 678
+
+Time: 1699649803 
+sfGFP -515 nm: 1257 
+F5 -555nm: 678
+
+Time: 1699649807 
+sfGFP -515 nm: 1256 
+F5 -555nm: 678
+
+Time: 1699649810 
+sfGFP -515 nm: 1256 
+F5 -555nm: 678
+
+Time: 1699649814 
+sfGFP -515 nm: 1255 
+F5 -555nm: 678
+
+Time: 1699649818 
+sfGFP -515 nm: 1254 
+F5 -555nm: 678
+
+Time: 1699649821 
+sfGFP -515 nm: 1254 
+F5 -555nm: 678
+
+Time: 1699649825 
+sfGFP -515 nm: 1254 
+F5 -555nm: 677
+
+Time: 1699649829 
+sfGFP -515 nm: 1254 
+F5 -555nm: 678
+
+Time: 1699649832 
+sfGFP -515 nm: 1253 
+F5 -555nm: 677
+
+Time: 1699649836 
+sfGFP -515 nm: 1253 
+F5 -555nm: 677
+
+Time: 1699649840 
+sfGFP -515 nm: 1253 
+F5 -555nm: 678
+
+Time: 1699649843 
+sfGFP -515 nm: 1253 
+F5 -555nm: 677
+
+Time: 1699649847 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649851 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649854 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649858 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649862 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649865 
+sfGFP -515 nm: 1252 
+F5 -555nm: 677
+
+Time: 1699649869 
+sfGFP -515 nm: 1251 
+F5 -555nm: 676
+
+Time: 1699649872 
+sfGFP -515 nm: 1251 
+F5 -555nm: 677
+
+Time: 1699649876 
+sfGFP -515 nm: 1251 
+F5 -555nm: 676
+
+Time: 1699649880 
+sfGFP -515 nm: 1251 
+F5 -555nm: 677
+
+Time: 1699649883 
+sfGFP -515 nm: 1251 
+F5 -555nm: 676
+
+Time: 1699649887 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649891 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649894 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649898 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649902 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649905 
+sfGFP -515 nm: 1249 
+F5 -555nm: 676
+
+Time: 1699649909 
+sfGFP -515 nm: 1248 
+F5 -555nm: 676
+
+Time: 1699649913 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649916 
+sfGFP -515 nm: 1250 
+F5 -555nm: 676
+
+Time: 1699649920 
+sfGFP -515 nm: 1249 
+F5 -555nm: 675
+
+Time: 1699649923 
+sfGFP -515 nm: 1249 
+F5 -555nm: 675
+
+Time: 1699649927 
+sfGFP -515 nm: 1249 
+F5 -555nm: 676
+
+Time: 1699649931 
+sfGFP -515 nm: 1249 
+F5 -555nm: 675
+
+Time: 1699649934 
+sfGFP -515 nm: 1249 
+F5 -555nm: 675
+
+Time: 1699649938 
+sfGFP -515 nm: 1248 
+F5 -555nm: 675
+
+Time: 1699649942 
+sfGFP -515 nm: 1248 
+F5 -555nm: 675
+
+Time: 1699649945 
+sfGFP -515 nm: 1248 
+F5 -555nm: 675
+
+Time: 1699649949 
+sfGFP -515 nm: 1248 
+F5 -555nm: 675
+
+Time: 1699649953 
+sfGFP -515 nm: 1248 
+F5 -555nm: 675
+
+Time: 1699649956 
+sfGFP -515 nm: 1247 
+F5 -555nm: 674
+
+Time: 1699649960 
+sfGFP -515 nm: 1247 
+F5 -555nm: 674
+
+Time: 1699649964 
+sfGFP -515 nm: 1248 
+F5 -555nm: 674
+
+Time: 1699649967 
+sfGFP -515 nm: 1247 
+F5 -555nm: 674
+
+Time: 1699649971 
+sfGFP -515 nm: 1247 
+F5 -555nm: 674
+
+Time: 1699649975 
+sfGFP -515 nm: 1246 
+F5 -555nm: 674
+
+Time: 1699649978 
+sfGFP -515 nm: 1246 
+F5 -555nm: 674
+
+Time: 1699649982 
+sfGFP -515 nm: 1246 
+F5 -555nm: 674
+
+Time: 1699649985 
+sfGFP -515 nm: 1167 
+F5 -555nm: 632
+
+Time: 1699649989 
+sfGFP -515 nm: 1257 
+F5 -555nm: 700
+
+Time: 1699649993 
+sfGFP -515 nm: 1223 
+F5 -555nm: 631
+
+Time: 1699649996 
+sfGFP -515 nm: 1104 
+F5 -555nm: 688
+
+Time: 1699650000 
+sfGFP -515 nm: 1303 
+F5 -555nm: 678
+
+Time: 1699650004 
+sfGFP -515 nm: 1302 
+F5 -555nm: 678
+
+Time: 1699650007 
+sfGFP -515 nm: 1296 
+F5 -555nm: 672
+
+Time: 1699650011 
+sfGFP -515 nm: 1260 
+F5 -555nm: 645
+
+Time: 1699650015 
+sfGFP -515 nm: 1221 
+F5 -555nm: 627
+
+Time: 1699650018 
+sfGFP -515 nm: 1213 
+F5 -555nm: 628
+
+Time: 1699650022 
+sfGFP -515 nm: 1212 
+F5 -555nm: 628
+
+Time: 1699650026 
+sfGFP -515 nm: 1212 
+F5 -555nm: 628
+
+Time: 1699650029 
+sfGFP -515 nm: 1212 
+F5 -555nm: 633
+
+Time: 1699650033 
+sfGFP -515 nm: 1207 
+F5 -555nm: 632
+
+Time: 1699650036 
+sfGFP -515 nm: 1219 
+F5 -555nm: 643
+
+Time: 1699650040 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650044 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650047 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650051 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650055 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650058 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650062 
+sfGFP -515 nm: 1211 
+F5 -555nm: 639
+
+Time: 1699650066 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650069 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650073 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650077 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650080 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650084 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650088 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650091 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650095 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650098 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650102 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650106 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650109 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650113 
+sfGFP -515 nm: 1209 
+F5 -555nm: 639
+
+Time: 1699650117 
+sfGFP -515 nm: 1211 
+F5 -555nm: 639
+
+Time: 1699650120 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650124 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650128 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650131 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650135 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650139 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650142 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650146 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650149 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650153 
+sfGFP -515 nm: 1209 
+F5 -555nm: 639
+
+Time: 1699650157 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650160 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650164 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650168 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650171 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650175 
+sfGFP -515 nm: 1209 
+F5 -555nm: 640
+
+Time: 1699650179 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650182 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650186 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650190 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650193 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650197 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650201 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650204 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650208 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650211 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650215 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650219 
+sfGFP -515 nm: 1209 
+F5 -555nm: 639
+
+Time: 1699650222 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650226 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650230 
+sfGFP -515 nm: 1211 
+F5 -555nm: 640
+
+Time: 1699650233 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650237 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650241 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650244 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650248 
+sfGFP -515 nm: 1211 
+F5 -555nm: 639
+
+Time: 1699650252 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650255 
+sfGFP -515 nm: 1210 
+F5 -555nm: 640
+
+Time: 1699650259 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650262 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650266 
+sfGFP -515 nm: 1210 
+F5 -555nm: 639
+
+Time: 1699650270 
+sfGFP -515 nm: 1854 
+F5 -555nm: 969
+
+Time: 1699650273 
+sfGFP -515 nm: 1889 
+F5 -555nm: 972
+
+Time: 1699650277 
+sfGFP -515 nm: 1890 
+F5 -555nm: 972
+
+Time: 1699650281 
+sfGFP -515 nm: 1889 
+F5 -555nm: 973
+
+Time: 1699650284 
+sfGFP -515 nm: 1889 
+F5 -555nm: 973
+
+Time: 1699650288 
+sfGFP -515 nm: 1890 
+F5 -555nm: 973
+
+Time: 1699650292 
+sfGFP -515 nm: 1889 
+F5 -555nm: 973
+
+Time: 1699650295 
+sfGFP -515 nm: 1889 
+F5 -555nm: 974
+
+Time: 1699650299 
+sfGFP -515 nm: 1889 
+F5 -555nm: 974
+
+Time: 1699650303 
+sfGFP -515 nm: 1889 
+F5 -555nm: 974
+
+Time: 1699650306 
+sfGFP -515 nm: 1889 
+F5 -555nm: 975
+
+Time: 1699650310 
+sfGFP -515 nm: 1890 
+F5 -555nm: 974
+
+Time: 1699650314 
+sfGFP -515 nm: 1890 
+F5 -555nm: 975
+
+Time: 1699650317 
+sfGFP -515 nm: 1890 
+F5 -555nm: 975
+
+Time: 1699650639 
+sfGFP -515 nm: 0 
+F5 -555nm: 848
+
+Time: 1699650643 
+sfGFP -515 nm: 1690 
+F5 -555nm: 849
+
+Time: 1699650647 
+sfGFP -515 nm: 1691 
+F5 -555nm: 850
+
+Time: 1699650650 
+sfGFP -515 nm: 1691 
+F5 -555nm: 850
+
+Time: 1699650654 
+sfGFP -515 nm: 1691 
+F5 -555nm: 851
+
+Time: 1699650658 
+sfGFP -515 nm: 1690 
+F5 -555nm: 851
+
+Time: 1699650661 
+sfGFP -515 nm: 1691 
+F5 -555nm: 852
+
+Time: 1699650665 
+sfGFP -515 nm: 1690 
+F5 -555nm: 853
+
+Time: 1699650669 
+sfGFP -515 nm: 1691 
+F5 -555nm: 853
+
+Time: 1699650672 
+sfGFP -515 nm: 1691 
+F5 -555nm: 853
+
+Time: 1699650676 
+sfGFP -515 nm: 1689 
+F5 -555nm: 853
+
+Time: 1699650680 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650683 
+sfGFP -515 nm: 1691 
+F5 -555nm: 854
+
+Time: 1699650687 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650691 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650694 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650698 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650702 
+sfGFP -515 nm: 1690 
+F5 -555nm: 855
+
+Time: 1699650705 
+sfGFP -515 nm: 1690 
+F5 -555nm: 855
+
+Time: 1699650709 
+sfGFP -515 nm: 1690 
+F5 -555nm: 854
+
+Time: 1699650712 
+sfGFP -515 nm: 1691 
+F5 -555nm: 854
+
+Time: 1699650716 
+sfGFP -515 nm: 1689 
+F5 -555nm: 854
+
+Time: 1699650720 
+sfGFP -515 nm: 1690 
+F5 -555nm: 855
+
+Time: 1699650723 
+sfGFP -515 nm: 1690 
+F5 -555nm: 855
+
+Time: 1699650727 
+sfGFP -515 nm: 1689 
+F5 -555nm: 854
+
+Time: 1699650731 
+sfGFP -515 nm: 1690 
+F5 -555nm: 855
+
+Time: 1699650734 
+sfGFP -515 nm: 1687 
+F5 -555nm: 844
+
+Time: 1699650738 
+sfGFP -515 nm: 1638 
+F5 -555nm: 819
+
+Time: 1699650742 
+sfGFP -515 nm: 1658 
+F5 -555nm: 839
+
+Time: 1699650745 
+sfGFP -515 nm: 1675 
+F5 -555nm: 845
+
+Time: 1699650749 
+sfGFP -515 nm: 1662 
+F5 -555nm: 844
+
+Time: 1699650753 
+sfGFP -515 nm: 1662 
+F5 -555nm: 844
+
+Time: 1699650756 
+sfGFP -515 nm: 1665 
+F5 -555nm: 844
+
+Time: 1699650760 
+sfGFP -515 nm: 1652 
+F5 -555nm: 834
+
+Time: 1699650763 
+sfGFP -515 nm: 1652 
+F5 -555nm: 835
+
+Time: 1699650767 
+sfGFP -515 nm: 1640 
+F5 -555nm: 837
+
+Time: 1699650771 
+sfGFP -515 nm: 1190 
+F5 -555nm: 636
+
+Time: 1699650774 
+sfGFP -515 nm: 1191 
+F5 -555nm: 637
+
+Time: 1699650778 
+sfGFP -515 nm: 1652 
+F5 -555nm: 834
+
+Time: 1699650782 
+sfGFP -515 nm: 1651 
+F5 -555nm: 834
+
+Time: 1699650785 
+sfGFP -515 nm: 1651 
+F5 -555nm: 834
+
+Time: 1699650789 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650793 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650796 
+sfGFP -515 nm: 1190 
+F5 -555nm: 636
+
+Time: 1699650800 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650804 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650807 
+sfGFP -515 nm: 1190 
+F5 -555nm: 636
+
+Time: 1699650811 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650814 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650818 
+sfGFP -515 nm: 1190 
+F5 -555nm: 635
+
+Time: 1699650822 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650825 
+sfGFP -515 nm: 1189 
+F5 -555nm: 636
+
+Time: 1699650829 
+sfGFP -515 nm: 1190 
+F5 -555nm: 636
+
+Time: 1699650833 
+sfGFP -515 nm: 1483 
+F5 -555nm: 833
+
+Time: 1699650836 
+sfGFP -515 nm: 1650 
+F5 -555nm: 834
+
+Time: 1699650840 
+sfGFP -515 nm: 1651 
+F5 -555nm: 834
+
+Time: 1699650844 
+sfGFP -515 nm: 1652 
+F5 -555nm: 834
+
+Time: 1699650847 
+sfGFP -515 nm: 1652 
+F5 -555nm: 835
+
+Time: 1699650851 
+sfGFP -515 nm: 1652 
+F5 -555nm: 817
+
+Time: 1699650855 
+sfGFP -515 nm: 1604 
+F5 -555nm: 804
+
+Time: 1699650858 
+sfGFP -515 nm: 1631 
+F5 -555nm: 817
+
+Time: 1699650862 
+sfGFP -515 nm: 1631 
+F5 -555nm: 817
+
+Time: 1699650866 
+sfGFP -515 nm: 1631 
+F5 -555nm: 817
+
+Time: 1699650869 
+sfGFP -515 nm: 1631 
+F5 -555nm: 817
+
+Time: 1699650873 
+sfGFP -515 nm: 1631 
+F5 -555nm: 817
+
+Time: 1699650876 
+sfGFP -515 nm: 1632 
+F5 -555nm: 817
+
+Time: 1699650909 
+sfGFP -515 nm: 1632 
+F5 -555nm: 818
+
+Time: 1699650912 
+sfGFP -515 nm: 1632 
+F5 -555nm: 817
+
+Time: 1699650916 
+sfGFP -515 nm: 1632 
+F5 -555nm: 818
+
+Time: 1699650920 
+sfGFP -515 nm: 1632 
+F5 -555nm: 818
+
+Time: 1699650923 
+sfGFP -515 nm: 1167 
+F5 -555nm: 618
+
+Time: 1699650927 
+sfGFP -515 nm: 1168 
+F5 -555nm: 622
+
+Time: 1699650931 
+sfGFP -515 nm: 1636 
+F5 -555nm: 821
+
+Time: 1699650934 
+sfGFP -515 nm: 1637 
+F5 -555nm: 822
+
+Time: 1699650938 
+sfGFP -515 nm: 1638 
+F5 -555nm: 823
+
+Time: 1699650941 
+sfGFP -515 nm: 1638 
+F5 -555nm: 822
+
+Time: 1699650945 
+sfGFP -515 nm: 1251 
+F5 -555nm: 204
+
+Time: 1699650949 
+sfGFP -515 nm: 472 
+F5 -555nm: 204
+
+Time: 1699650952 
+sfGFP -515 nm: 471 
+F5 -555nm: 204
+
+Time: 1699650956 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650960 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650963 
+sfGFP -515 nm: 471 
+F5 -555nm: 204
+
+Time: 1699650967 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650971 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650974 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650978 
+sfGFP -515 nm: 472 
+F5 -555nm: 204
+
+Time: 1699650982 
+sfGFP -515 nm: 472 
+F5 -555nm: 204
+
+Time: 1699650985 
+sfGFP -515 nm: 473 
+F5 -555nm: 204
+
+Time: 1699650989 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699650992 
+sfGFP -515 nm: 473 
+F5 -555nm: 205
+
+Time: 1699650996 
+sfGFP -515 nm: 473 
+F5 -555nm: 205
+
+Time: 1699651000 
+sfGFP -515 nm: 472 
+F5 -555nm: 205
+
+Time: 1699651003 
+sfGFP -515 nm: 473 
+F5 -555nm: 205
+
+Time: 1699651007 
+sfGFP -515 nm: 473 
+F5 -555nm: 205
+
+Time: 1699651011 
+sfGFP -515 nm: 473 
+F5 -555nm: 205
+
+Time: 1699651014 
+sfGFP -515 nm: 472 
+F5 -555nm: 204
+
+Time: 1699651018 
+sfGFP -515 nm: 1635 
+F5 -555nm: 817
+
+Time: 1699651022 
+sfGFP -515 nm: 1642 
+F5 -555nm: 820
+
+Time: 1699651025 
+sfGFP -515 nm: 1643 
+F5 -555nm: 821
+
+Time: 1699651029 
+sfGFP -515 nm: 1643 
+F5 -555nm: 822
+
+Time: 1699651033 
+sfGFP -515 nm: 1642 
+F5 -555nm: 822
+
+Time: 1699651036 
+sfGFP -515 nm: 1643 
+F5 -555nm: 822
+
+Time: 1699651040 
+sfGFP -515 nm: 1643 
+F5 -555nm: 822
+
+Time: 1699651043 
+sfGFP -515 nm: 1642 
+F5 -555nm: 823
+
+Time: 1699651047 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651051 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651054 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651058 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651062 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651065 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651069 
+sfGFP -515 nm: 1642 
+F5 -555nm: 824
+
+Time: 1699651073 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651076 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651080 
+sfGFP -515 nm: 1640 
+F5 -555nm: 823
+
+Time: 1699651084 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651087 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651091 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651094 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651098 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651102 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651105 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651109 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651113 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651116 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651120 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651124 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651127 
+sfGFP -515 nm: 1642 
+F5 -555nm: 824
+
+Time: 1699651131 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651135 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651138 
+sfGFP -515 nm: 1640 
+F5 -555nm: 823
+
+Time: 1699651142 
+sfGFP -515 nm: 1641 
+F5 -555nm: 825
+
+Time: 1699651146 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651149 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651153 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651156 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651160 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651164 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651167 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651171 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651175 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651178 
+sfGFP -515 nm: 1639 
+F5 -555nm: 823
+
+Time: 1699651182 
+sfGFP -515 nm: 1639 
+F5 -555nm: 823
+
+Time: 1699651186 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651189 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651193 
+sfGFP -515 nm: 1641 
+F5 -555nm: 823
+
+Time: 1699651197 
+sfGFP -515 nm: 1641 
+F5 -555nm: 824
+
+Time: 1699651200 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651204 
+sfGFP -515 nm: 1639 
+F5 -555nm: 824
+
+Time: 1699651207 
+sfGFP -515 nm: 1639 
+F5 -555nm: 824
+
+Time: 1699651211 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651215 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651218 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651222 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651226 
+sfGFP -515 nm: 1640 
+F5 -555nm: 824
+
+Time: 1699651229 
+sfGFP -515 nm: 1641 
+F5 -555nm: 825
+
+Time: 1699651233 
+sfGFP -515 nm: 1641 
+F5 -555nm: 825
+
+Time: 1699651237 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651240 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651244 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651248 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651251 
+sfGFP -515 nm: 1681 
+F5 -555nm: 870
+
+Time: 1699651255 
+sfGFP -515 nm: 1681 
+F5 -555nm: 871
+
+Time: 1699651258 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651262 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651266 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651269 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651273 
+sfGFP -515 nm: 1682 
+F5 -555nm: 872
+
+Time: 1699651277 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651280 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651284 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651288 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651291 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651295 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651299 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651302 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651306 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651310 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651313 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651317 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651320 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651324 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651328 
+sfGFP -515 nm: 1684 
+F5 -555nm: 871
+
+Time: 1699651331 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651335 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651339 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651342 
+sfGFP -515 nm: 1684 
+F5 -555nm: 872
+
+Time: 1699651346 
+sfGFP -515 nm: 1683 
+F5 -555nm: 872
+
+Time: 1699651350 
+sfGFP -515 nm: 1684 
+F5 -555nm: 872
+
+Time: 1699651353 
+sfGFP -515 nm: 1685 
+F5 -555nm: 871
+
+Time: 1699651357 
+sfGFP -515 nm: 1684 
+F5 -555nm: 872
+
+Time: 1699651361 
+sfGFP -515 nm: 1684 
+F5 -555nm: 872
+
+Time: 1699651364 
+sfGFP -515 nm: 1684 
+F5 -555nm: 871
+
+Time: 1699651368 
+sfGFP -515 nm: 1683 
+F5 -555nm: 871
+
+Time: 1699651371 
+sfGFP -515 nm: 1674 
+F5 -555nm: 855
+
+Time: 1699651375 
+sfGFP -515 nm: 1680 
+F5 -555nm: 871
+
+Time: 1699651379 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651382 
+sfGFP -515 nm: 1681 
+F5 -555nm: 870
+
+Time: 1699651386 
+sfGFP -515 nm: 1680 
+F5 -555nm: 870
+
+Time: 1699651390 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651393 
+sfGFP -515 nm: 1681 
+F5 -555nm: 870
+
+Time: 1699651397 
+sfGFP -515 nm: 1682 
+F5 -555nm: 871
+
+Time: 1699651401 
+sfGFP -515 nm: 1681 
+F5 -555nm: 870
+
+Time: 1699651404 
+sfGFP -515 nm: 1682 
+F5 -555nm: 870
+
+Time: 1699651408 
+sfGFP -515 nm: 1682 
+F5 -555nm: 870
+
+Time: 1699651412 
+sfGFP -515 nm: 1682 
+F5 -555nm: 870
+
+Time: 1699651415 
+sfGFP -515 nm: 1682 
+F5 -555nm: 870
+
+Time: 1699651419 
+sfGFP -515 nm: 1681 
+F5 -555nm: 869

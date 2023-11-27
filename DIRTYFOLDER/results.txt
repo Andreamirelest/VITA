@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Sensor 1:/nTemperature: 23.52 C/nPressure: 1005.94 hPa/nHumidity: 51.41 %/nGas resistance: 568 ohm
+Sensor 1:
+Temperature: 23.58 C
+Pressure: 1005.94 hPa
+Humidity: 51.50 %
+Gas resistance: 568 ohm
+
+Sensor 1:
+Temperature: 23.59 C
+Pressure: 1005.92 hPa
+Humidity: 51.45 %
+Gas resistance: 568 ohm
+
+Sensor 1:
+Temperature: 22.95 C
+Pressure: 1004.17 hPa
+Humidity: 40.46 %
+Gas resistance: 1117 ohm
+
+Sensor 2:
+Temperature: 23.02 C
+Pressure: 1004.42 hPa
+Humidity: 39.57 %
+Gas resistance: 1633 ohm
+
+Sensor 1:
+Temperature: 22.94 C
+Pressure: 1004.35 hPa
+Humidity: 36.17 %
+Gas resistance: 1511 ohm
+
+Sensor 2:
+Temperature: 23.00 C
+Pressure: 1004.58 hPa
+Humidity: 35.36 %
+Gas resistance: 1938 ohm
+
+SPECTRO 1 CHANNEL 415 nm/VIOLET DATA: 29
+SPECTRO 1 CHANNEL 480 nm/BLUE DATA: 93
+SPECTRO 1 CHANNEL 555 nm/GREEN DATA: 202
+
+Sensor 1:
+Temperature: 23.02 C
+Pressure: 1004.32 hPa
+Humidity: 34.07 %
+Gas resistance: 1569 ohm
+
+Sensor 2:
+Temperature: 23.03 C
+Pressure: 1004.56 hPa
+Humidity: 33.44 %
+Gas resistance: 1843 ohm
+
+SPECTRO 1 CHANNEL 415 nm/VIOLET DATA: 33
+SPECTRO 1 CHANNEL 480 nm/BLUE DATA: 110
+SPECTRO 1 CHANNEL 555 nm/GREEN DATA: 242
+
+SPECTRO 2 CHANNEL 415 nm/VIOLET DATA: 52
+SPECTRO 2 CHANNEL 480 nm/BLUE DATA: 147
+SPECTRO 2 CHANNEL 555 nm/GREEN DATA: 340
+
+SPECTRO 3 CHANNEL 415 nm/VIOLET DATA: 667
+SPECTRO 3 CHANNEL 480 nm/BLUE DATA: 2720
+SPECTRO 3 CHANNEL 555 nm/GREEN DATA: 7428
+
+SPECTRO 4 CHANNEL 415 nm/VIOLET DATA: 450
+SPECTRO 4 CHANNEL 480 nm/BLUE DATA: 1091
+SPECTRO 4 CHANNEL 555 nm/GREEN DATA: 2433
+
