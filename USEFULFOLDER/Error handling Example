@@ -2,11 +2,6 @@
 Import sys
 
 try:
-    # Code that may raise exceptions goes here
-    result = 10 / 0  # Example: Division by zero
-except ZeroDivisionError:
-    # Handle ZeroDivisionError
-    print("Division by zero is not allowed.")
 except ArithmeticError:
     # Handle other arithmetic errors
     print("An arithmetic error occurred.")
