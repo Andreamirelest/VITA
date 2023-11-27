@@ -1,13 +1,26 @@
 
-Import sys
+
+import os
+import subprocess
+from ALLMODES8 import main
+
+
 
 try:
-except ArithmeticError:
-    # Handle other arithmetic errors
-    print("An arithmetic error occurred.")
-except Exception as e:
-    # Handle all other exceptions
-    print(f"An exception of type {type(e).__name__} occurred.")
+    main()
+    #os.system("python 5MODES.py")
+
+    # os.system("python 5MODES.py")
+   # subprocess.run(["5MODES.py"], check = True, shell=True)
+except:
+    print("Error Caught !!!")
+#except ArithmeticError:
+#   
+#    # Handle other arithmetic errors
+#    print("An arithmetic error occurred.")
+#except Exception as e:
+#    
+#    print(f"An exception of type {type(e).__name__} occurred.")
 else:
     # Code to execute if no exceptions were raised
     print("No exceptions were raised.")
@@ -50,3 +63,5 @@ try:
 except SystemExit as se:
     # Handle SystemExit
     print("SystemExit detected:", se)
+
+
