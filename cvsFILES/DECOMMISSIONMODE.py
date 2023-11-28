@@ -201,10 +201,7 @@ def task5():
 #spectro 1 =AS7341 (i2c_addr=spec_1_address, i2c_device=bus)
 #while True:
     spectro1 =AS7341(mux[0])
-    data_spectro1 = ("SPECTRO 1 CHANNEL 415 nm/VIOLET DATA: %d\n" % spectro1.channel_415nm +
-    "SPECTRO 1 CHANNEL 480 nm/BLUE DATA: %d\n" % spectro1.channel_480nm +
-    "SPECTRO 1 CHANNEL 555 nm/GREEN DATA: %d\n" % spectro1.channel_555nm)
-
+    data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),1,spectro1.channel_415nm,spectro1.channel_480nm,spectro1.channel_555nm)
     
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
@@ -216,10 +213,8 @@ def task5():
 #SPECTRO 2 
 #Initialize the BME688 sensor on channel 1 
     spectro2= AS7341(mux[1])
-    data_spectro2 =("SPECTRO 2 CHANNEL 415 nm/VIOLET DATA: %d\n" % spectro2.channel_415nm +
-    "SPECTRO 2 CHANNEL 480 nm/BLUE DATA: %d\n" % spectro2.channel_480nm +
-    "SPECTRO 2 CHANNEL 555 nm/GREEN DATA: %d\n" %  spectro2.channel_555nm)
-
+    data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
+ 
     save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
     
@@ -227,9 +222,8 @@ def task5():
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
     spectro3= AS7341(mux[2])
-    data_spectro3 =("SPECTRO 3 CHANNEL 415 nm/VIOLET DATA: %d\n" % spectro3.channel_415nm +
-    "SPECTRO 3 CHANNEL 480 nm/BLUE DATA: %d\n" % spectro3.channel_480nm +
-    "SPECTRO 3 CHANNEL 555 nm/GREEN DATA: %d\n" % spectro3.channel_555nm)
+    data_spectro3 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),3,spectro3.channel_415nm,spectro3.channel_480nm,spectro3.channel_555nm)
+
  
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
@@ -237,10 +231,9 @@ def task5():
 #SPECTRO4
 #CHANNEL 3 
     spectro4= AS7341(mux[3])
-    data_spectro4 =("SPECTRO 4 CHANNEL 415 nm/VIOLET DATA: %d\n" % spectro4.channel_415nm +
-    "SPECTRO 4 CHANNEL 480 nm/BLUE DATA: %d\n" % spectro4.channel_480nm +
-    "SPECTRO 4 CHANNEL 555 nm/GREEN DATA: %d\n" % spectro4.channel_555nm)
+    data_spectro4 ="{:.2f},{:d},{:.2f}.{:.2f},{:.2f}".format(time.time(),4,spectro4.channel_415nm,spectro4.channel_480nm,spectro4.channel_555nm)
 
+ 
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
 
