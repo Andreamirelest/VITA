@@ -54,6 +54,12 @@ import adafruit_tca9548a
 import RPi.GPIO as GPIO
 from time import sleep
 
+#send results to outside folder 
+
+
+
+
+
 def save_to_results_file(data):
     with open("standby.csv",  "a") as f: # Opening the file the data will be stored in
         f.write(data) # Writing data to the above file
@@ -66,6 +72,20 @@ def sensor_results_file(envsensdata):
         f.write(envsensdata)
         f.write("\n")
         print (envsensdata) 
+
+# HOUSE KEEPING DATA 
+
+def housekeeping_data_to_csv():
+    while True:
+    housekeeping_data = "Timestamp,Temp,Humidity,Pressure,Light"    
+    save_to_results_file(housekeeping_data, "housekeepingscience.csv")  
+    time.sleep(60) # house keeping data every minute
+
+
+
+
+
+        ### housekeepingdata 
 
 
 def task1():
@@ -146,6 +166,8 @@ def task3():
     sensor_results_file(envsensdata_sensor2)
 
     time.sleep(1)
+
+
 
 
 

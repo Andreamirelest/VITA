@@ -76,6 +76,23 @@ from time import sleep
 #    os.system("sh pi_cam_uc444.sh")
  #   time.sleep(5)
 
+# Transfer to Results file in separate folder
+
+results_csv = “/path/to/RESULTSFOLDER/“
+
+def save_to_results_file(data): #try replacing filename with  Sciencemode.csv if it does not work 
+
+#create folder in case it does not exist 
+
+    os.makedirs(results_csv, exist_ok=True)
+  
+    file_path = os.path.join(results_csv, "science.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)
 
 
 def save_to_results_file(data):
@@ -83,12 +100,54 @@ def save_to_results_file(data):
         f.write(data)
         f.write("\n")
     print (data)
+      
+
+# evironmental sensors data to RESULTS FOLDER 
+
+# comment what does not work 
+
+def sensor_results_file(data): 
+
+    os.makedirs(resukts_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "scienceenvsens.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)        
+
+
 
 def sensor_results_file(envsensdata):
+    os.makedirs(resukts_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "scienceenvsens.csv")
+
+    with open(file_path, "a") as f:      # comment it if not working 
     with open("scienceenvsens.csv", "a") as f:
         f.write(envsensdata)
         f.write("\n")
     print (envsensdata)
+
+ def spectro_results_file(spectrodata): 
+     os.makedirs(results_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "rehydrationspectro.csv")
+    file_path = os.path.join(results_directory, "sciencespectro.csv")
+    file_path = os.path.join(results_directory, "decomspectro.csv")
+
+
+     
+
+     with  open (file_path, "a") as f: 
+        f.write(spectrodata)
+        f.write("\n")
+
+        print(spectrodata)
+
+
 
 def spectrometer_results_file(spectrodata):
     with open("sciencespectrodata.csv", "a") as f:
