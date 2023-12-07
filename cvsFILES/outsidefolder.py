@@ -72,7 +72,7 @@ def sensor_results_file(sensordata) :
         f.write(spectrodata)
         f.write("\n")
 
-        print(spectrodata)
+        print(spectrodata) 
 
 
 
