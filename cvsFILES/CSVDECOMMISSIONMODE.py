@@ -61,6 +61,29 @@ import adafruit_tca9548a
 import RPi.GPIO as GPIO
 from time import sleep
 
+
+
+# HOUSEKEEPING DATA 
+
+
+housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
+
+def save_to_housekeeping_file(data):
+    os.makedirs(housekeeping_directory, exist_ok=True)
+    file_path = os.path.join(housekeeping_directory, "housekeepingdecommission.csv")
+    with open(file_path, "a") as f:
+        f.write(data)
+        f.write("\n")
+    print(data)
+
+
+    
+
+# Housekeeping data function for each component
+def housekeeping_data(data):
+    save_to_housekeeping_file(data)
+
+
 def save_to_results_file(data):
     with open("decommission.csv",  "a") as f:
         f.write(data)
