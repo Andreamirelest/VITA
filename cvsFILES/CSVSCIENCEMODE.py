@@ -78,6 +78,26 @@ from time import sleep
 
 # Transfer to Results file in separate folder
 
+# HOUSEKEEPING DATA 
+
+
+housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
+
+def save_to_housekeeping_file(data):
+    os.makedirs(housekeeping_directory, exist_ok=True)
+    file_path = os.path.join(housekeeping_directory, "housekeeping.csv")
+    with open(file_path, "a") as f:
+        f.write(data)
+        f.write("\n")
+    print(data)
+
+# Housekeeping data function for each component
+def housekeeping_data(data):
+    save_to_housekeeping_file(data)
+
+
+
+
 results_directory = “/path/to/RESULTSFOLDER/“
 
 def save_to_results_file(data): #try replacing filename with  Sciencemode.csv if it does not work 
@@ -106,7 +126,7 @@ def save_to_results_file(data):
 
 # comment what does not work 
 
-def sensor_results_file(envsensdata): 
+def sensor_results_file(data): 
 
     os.makedirs(results_directory, exist_ok=True)
 
@@ -120,18 +140,18 @@ def sensor_results_file(envsensdata):
 
 
 
-def sensor_results(envsensdata):
+def sensor_results(data):
     os.makedirs(resukts_directory, exist_ok=True)
 
     file_path = os.path.join(results_directory, "scienceenvsens.csv")
 
     with open(file_path, "a") as f:      # comment it if not working 
     with open("scienceenvsens.csv", "a") as f:
-        f.write(envsensdata)
+        f.write(data)
         f.write("\n")
-    print (envsensdata)
+    print (data)
 
- def spectro_results_file(spectrodata): 
+ def spectro_results_file(data): 
      os.makedirs(results_directory, exist_ok=True)
 
     # spectrometer results to outside folder RESULTSFOLDER 
@@ -139,18 +159,18 @@ def sensor_results(envsensdata):
     file_path = os.path.join(results_directory, "sciencespectro.csv")
 
      with  open (file_path, "a") as f: 
-        f.write(spectrodata)
+        f.write(data)
         f.write("\n")
 
-        print(spectrodata)
+        print(data)
 
 # spectrometer results 
 
-def spectro_results(spectrodata):
+def spectro_results(data):
     with open("sciencespectrodata.csv", "a") as f:
-        f.write(spectrodata)
+        f.write(data)
         f.write("\n")
-    print (spectrodata)
+    print (data)
 
 
 
@@ -184,7 +204,11 @@ def tcs_results(tcsdata):
 
 
 
+# housekeeping data 
 
+
+def housekeeping_data_file(data):
+    with open 
 
 
 
@@ -195,13 +219,15 @@ def tcs_results(tcsdata):
 def task1():
 
         #importing external codes (steppermotor &  TCS)	
-        
-        
+
+
+        # check this is correct 
         os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here 
+        data_tcs = os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here # comment if code not working 
 
-        tcs_results_file(tcsdata_tcs)
+        tcs_results_file(data_tcs)
 
-        tcs_results(tcsdata_tcs)
+        tcs_results(data_tcs)
 
         save_to_results_file(data_tcs)
 
@@ -219,9 +245,9 @@ def task2():
         break
 
 
-
-
-
+# Housekeeping For  camera
+       camera_data = "Camera status: OK"
+       housekeeping_data("Camera", camera_data)
 
 
 
@@ -258,6 +284,9 @@ def task2():
     sleep(1)
 
 
+
+
+
 # Set up the I2C bus and the multiplexer
 #i2c = busio.I2C(board.SCL, board.SDA)
 
@@ -286,9 +315,14 @@ def task3():
 
 
 
-    sensor_results(envsensdata_sensor1)
-    sensor_results_file(envsensdata_sensor1)
+    sensor_results(data_sensor1)
+    sensor_results_file(data_sensor1)
     save_to_results_file(data_sensor1)
+
+    # Housekeeping For environmental sensors
+    
+    housekeeping_data("Sensor1", data_sensor1)
+
 
     time.sleep(1)  #must be 60
  
@@ -301,9 +335,11 @@ def task3():
 
 
 
-    sensor_results(envsensdata_sensor2)
-    sensor_results_file(envsensdata_sensor2)
+    sensor_results(data_sensor2)
+    sensor_results_file(data_sensor2)
     save_to_results_file(data_sensor2)
+
+    housekeeping_data("Sensor2", data_sensor2)
 
 
 
@@ -324,9 +360,11 @@ def task3():
 
 
 
-    save_to_results_file(spectrodata_spectro1)
-    spectro_results_file(spectrodata_spectro1)
+    save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
+    spectro_results_file(data_spectro1)
+
+    housekeeping_data("Spectrometer1", data_spectro1)
 
 #Read sensor data from channel 2
 #Set the channel of the multiplexer to read data from spectro 2
@@ -337,9 +375,14 @@ def task3():
     
     data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
 
-    save_to_results_file(spectrodata_spectro2)
-    spectro_results_file(spectrodata_spectro2)
+    save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
+    spectro_results_file(data_spectro2)
+
+    housekeeping_data("Spectrometer2", data_spectro2)
+
+
+
 
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
@@ -350,9 +393,12 @@ def task3():
 
 
  
-    save_to_results_file(spectrodata_spectro3)
-    spectro_results_file(spectrodata_spectro3)
+    save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
+    spectro_results_file(data_spectro3)
+
+
+    housekeeping_data("Spectrometer3", data_spectro3)
 
 #SPECTRO4
 #CHANNEL 3 
@@ -363,9 +409,14 @@ def task3():
 
 
 
-    save_to_results_file(spectrodata_spectro4)
-    spectro_results_file(spectrodata_spectro4)
+    save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
+    spectro_results_file(data_spectro4)
+
+
+
+
+    housekeeping_data("Spectrometer4", data_spectro4)
 
     time.sleep(1)  #must be 60
 
