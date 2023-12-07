@@ -78,15 +78,15 @@ from time import sleep
 
 # Transfer to Results file in separate folder
 
-results_csv = “/path/to/RESULTSFOLDER/“
+results_directory = “/path/to/RESULTSFOLDER/“
 
 def save_to_results_file(data): #try replacing filename with  Sciencemode.csv if it does not work 
 
 #create folder in case it does not exist 
 
-    os.makedirs(results_csv, exist_ok=True)
+    os.makedirs(results_directory, exist_ok=True)
   
-    file_path = os.path.join(results_csv, "science.csv")
+    file_path = os.path.join(results_directory, "science.csv")
 
     with  open (file_path, "a") as f: 
         f.write(data)
@@ -106,9 +106,9 @@ def save_to_results_file(data):
 
 # comment what does not work 
 
-def sensor_results_file(data): 
+def sensor_results_file(envsensdata): 
 
-    os.makedirs(resukts_directory, exist_ok=True)
+    os.makedirs(results_directory, exist_ok=True)
 
     file_path = os.path.join(results_directory, "scienceenvsens.csv")
 
@@ -120,7 +120,7 @@ def sensor_results_file(data):
 
 
 
-def sensor_results_file(envsensdata):
+def sensor_results(envsensdata):
     os.makedirs(resukts_directory, exist_ok=True)
 
     file_path = os.path.join(results_directory, "scienceenvsens.csv")
@@ -134,7 +134,8 @@ def sensor_results_file(envsensdata):
  def spectro_results_file(spectrodata): 
      os.makedirs(results_directory, exist_ok=True)
 
-    
+    # spectrometer results to outside folder RESULTSFOLDER 
+
     file_path = os.path.join(results_directory, "sciencespectro.csv")
 
      with  open (file_path, "a") as f: 
@@ -143,19 +144,49 @@ def sensor_results_file(envsensdata):
 
         print(spectrodata)
 
+# spectrometer results 
 
-
-def spectrometer_results_file(spectrodata):
+def spectro_results(spectrodata):
     with open("sciencespectrodata.csv", "a") as f:
         f.write(spectrodata)
         f.write("\n")
     print (spectrodata)
 
-def tcs_results_file(tcsdata):
+
+
+
+#tcs results to outside folder RESULTS FOLDER 
+
+
+def tcs_results_file(tcsdata): 
+     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
+
+    # spectrometer results to outside folder RESULTSFOLDER 
+
+    file_path = os.path.join(results_directory, "sciencestcs.csv")
+
+     with  open (file_path, "a") as f: 
+        f.write(tcsdata)
+        f.write("\n")
+
+        print(tcsdata)
+
+# tcs results 
+
+def tcs_results(tcsdata):
     with open("sciencetcsdata.csv", "a") as f: 
         f.write(tcsdata)
         f.write("\n")
     print (tcsdata)
+
+ # camera picture files  to outside folder HERE (to be completed )
+
+
+
+
+
+
+
 
 
 
@@ -170,6 +201,12 @@ def task1():
 
         tcs_results_file(tcsdata_tcs)
 
+        tcs_results(tcsdata_tcs)
+
+        save_to_results_file(data_tcs)
+
+
+
         time.sleep(1)
 
 
@@ -180,6 +217,12 @@ def task2():
         os.system("sh pi_cam_uc444.sh")
         time.sleep(1)
         break
+
+
+
+
+
+
 
 
     GPIO.setmode(GPIO.BCM)
@@ -243,9 +286,9 @@ def task3():
 
 
 
-    sensor_results_file(data_sensor1)
-    sensor_results_file(data_sensor1)
-    save_to_results_file(envsensdata_sensor1)
+    sensor_results(envsensdata_sensor1)
+    sensor_results_file(envsensdata_sensor1)
+    save_to_results_file(data_sensor1)
 
     time.sleep(1)  #must be 60
  
@@ -258,9 +301,12 @@ def task3():
 
 
 
+    sensor_results(envsensdata_sensor2)
+    sensor_results_file(envsensdata_sensor2)
+    save_to_results_file(data_sensor2)
 
-    sensor_results_file(data_sensor2)
-    save_to_results_file(envsensdata_sensor2)
+
+
     time.sleep(1)   #must be 60
 
 #set the adress of TCA9548 I2C multiplexer 
@@ -278,9 +324,9 @@ def task3():
 
 
 
-    save_to_results_file(data_spectro1)
-    spectro_results_file(data_spectro1)
+    save_to_results_file(spectrodata_spectro1)
     spectro_results_file(spectrodata_spectro1)
+    spectro_results_file(data_spectro1)
 
 #Read sensor data from channel 2
 #Set the channel of the multiplexer to read data from spectro 2
@@ -291,9 +337,9 @@ def task3():
     
     data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
 
-    save_to_results_file(data_spectro2)
-    spectro_results_file(data_spectro2)
+    save_to_results_file(spectrodata_spectro2)
     spectro_results_file(spectrodata_spectro2)
+    spectro_results_file(data_spectro2)
 
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
@@ -304,9 +350,9 @@ def task3():
 
 
  
-    save_to_results_file(data_spectro3)
-    spectro_results_file(data_spectro3)
+    save_to_results_file(spectrodata_spectro3)
     spectro_results_file(spectrodata_spectro3)
+    spectro_results_file(data_spectro3)
 
 #SPECTRO4
 #CHANNEL 3 
@@ -317,9 +363,9 @@ def task3():
 
 
 
-    save_to_results_file(data_spectro4)
-    spectro_results_file(data_spectro4)
+    save_to_results_file(spectrodata_spectro4)
     spectro_results_file(spectrodata_spectro4)
+    spectro_results_file(data_spectro4)
 
     time.sleep(1)  #must be 60
 
