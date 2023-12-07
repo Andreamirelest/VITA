@@ -134,12 +134,8 @@ def sensor_results_file(envsensdata):
  def spectro_results_file(spectrodata): 
      os.makedirs(results_directory, exist_ok=True)
 
-    file_path = os.path.join(results_directory, "rehydrationspectro.csv")
+    
     file_path = os.path.join(results_directory, "sciencespectro.csv")
-    file_path = os.path.join(results_directory, "decomspectro.csv")
-
-
-     
 
      with  open (file_path, "a") as f: 
         f.write(spectrodata)
@@ -247,9 +243,9 @@ def task3():
 
 
 
-
     sensor_results_file(data_sensor1)
-    save_to_results_file(data_sensor1)
+    sensor_results_file(data_sensor1)
+    save_to_results_file(envsensdata_sensor1)
 
     time.sleep(1)  #must be 60
  
@@ -264,7 +260,7 @@ def task3():
 
 
     sensor_results_file(data_sensor2)
-    save_to_results_file(data_sensor2)
+    save_to_results_file(envsensdata_sensor2)
     time.sleep(1)   #must be 60
 
 #set the adress of TCA9548 I2C multiplexer 
@@ -284,6 +280,7 @@ def task3():
 
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
+    spectro_results_file(spectrodata_spectro1)
 
 #Read sensor data from channel 2
 #Set the channel of the multiplexer to read data from spectro 2
@@ -296,6 +293,7 @@ def task3():
 
     save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
+    spectro_results_file(spectrodata_spectro2)
 
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
@@ -308,6 +306,7 @@ def task3():
  
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
+    spectro_results_file(spectrodata_spectro3)
 
 #SPECTRO4
 #CHANNEL 3 
@@ -320,6 +319,7 @@ def task3():
 
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
+    spectro_results_file(spectrodata_spectro4)
 
     time.sleep(1)  #must be 60
 
