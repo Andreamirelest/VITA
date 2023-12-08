@@ -54,6 +54,53 @@ import adafruit_tca9548a
 import RPi.GPIO as GPIO
 from time import sleep
 
+# HOUSEKEEPING DATA 
+
+
+housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
+
+def save_to_housekeeping_file(data):
+    os.makedirs(housekeeping_directory, exist_ok=True)
+    file_path = os.path.join(housekeeping_directory, "housekeepingstandby.csv")
+    with open(file_path, "a") as f:
+        f.write(data)
+        f.write("\n")
+    print(data)
+
+# Housekeeping data function for each component
+def housekeeping_data(data):
+    save_to_housekeeping_file(data)
+
+
+
+
+results_directory = “/path/to/RESULTSFOLDER/“
+
+def save_to_results_file(data): #try replacing filename with  Sciencemode.csv if it does not work 
+
+#create folder in case it does not exist 
+
+    os.makedirs(results_directory, exist_ok=True)
+  
+    file_path = os.path.join(results_directory, "standby.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)
+
+
+def save_to_results_file(data):
+    with open("standby.csv",  "a") as f:
+        f.write(data)
+        f.write("\n")
+    print (data)
+      
+
+
+
+
 def save_to_results_file(data):
     with open("standby.csv",  "a") as f: # Opening the file the data will be stored in
         f.write(data) # Writing data to the above file
@@ -61,17 +108,52 @@ def save_to_results_file(data):
         print (data) 
 
 
-def sensor_results_file(envsensdata):
-    with open("standbyenvsens.csv", "a") as f: 
-        f.write(envsensdata)
-        f.write("\n")
-        print (envsensdata) 
+ evironmental sensors data to RESULTS FOLDER 
 
+# comment what does not work 
+
+def sensor_results_file(data): 
+
+    os.makedirs(results_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "standbyenvsens.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)        
+
+
+
+def sensor_results(data):
+    os.makedirs(resukts_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "standbyenvsens.csv")
+
+    with open(file_path, "a") as f:      # comment it if not working 
+    with open("scienceenvsens.csv", "a") as f:
+        f.write(data)
+        f.write("\n")
+    print (data)
 
 def task1():
+    while True:
+        os.system("sh pi_cam_uc444.sh")
+        time.sleep(5)
+        break
+
+
+# Housekeeping For  camera
+       camera_data = "Camera status: OK"
+       housekeeping_data("Camera", camera_data)
+
+
+
+#def task1():
 #        raspistill -o image.jpg
-    os.system("sh pi_cam_uc444.sh") # Executes commands directly from script
-    time.sleep(5) 
+  #  os.system("sh pi_cam_uc444.sh") # Executes commands directly from script
+  #  time.sleep(5) 
 
  
 def task2():

@@ -85,7 +85,7 @@ housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
 
 def save_to_housekeeping_file(data):
     os.makedirs(housekeeping_directory, exist_ok=True)
-    file_path = os.path.join(housekeeping_directory, "housekeeping.csv")
+    file_path = os.path.join(housekeeping_directory, "sciencehousekeeping.csv")
     with open(file_path, "a") as f:
         f.write(data)
         f.write("\n")
@@ -201,14 +201,6 @@ def tcs_results(tcsdata):
 
  # camera picture files  to outside folder HERE (to be completed )
 
-
-
-
-# housekeeping data 
-
-
-def housekeeping_data_file(data):
-    with open 
 
 
 
