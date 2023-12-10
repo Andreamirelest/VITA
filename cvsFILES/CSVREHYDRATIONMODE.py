@@ -77,34 +77,134 @@ from time import sleep
 #    os.system("sh pi_cam_uc444.sh")
  #   time.sleep(5)
 
+# HOUSEKEEPING DATA 
+
+
+housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
+
+def save_to_housekeeping_file(data):
+    os.makedirs(housekeeping_directory, exist_ok=True)
+    file_path = os.path.join(housekeeping_directory, "rehydrationhousekeeping.csv")
+    with open(file_path, "a") as f:
+        f.write(data)
+        f.write("\n")
+    print(data)
+
+# Housekeeping data function for each component
+def housekeeping_data(data):
+    save_to_housekeeping_file(data)
+
+
+
+
+results_directory = “/path/to/RESULTSFOLDER/“
+
+def save_to_results_file(data): #try replacing filename with  Rehydrationmode.csv if it does not work 
+
+#create folder in case it does not exist 
+
+    os.makedirs(results_directory, exist_ok=True)
+  
+    file_path = os.path.join(results_directory, "rehydration.csv")   # Rehydration results in outside folder 
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)
 
 
 def save_to_results_file(data):
-    with open("rehydrate.csv",  "a") as f:
+    with open("rehydration.csv",  "a") as f:
+        f.write(data)
+        f.write("\n")
+    print (data)
+      
+
+# evironmental sensors data to RESULTS FOLDER 
+
+# comment what does not work 
+
+def sensor_results_file(data): 
+
+    os.makedirs(results_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "rehydrationenvsens.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)        
+
+
+
+def sensor_results(data):
+    os.makedirs(resukts_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "rehydrationenvsens.csv")
+
+    with open(file_path, "a") as f:      # comment it if not working 
+    with open("rehydrationenvsens.csv", "a") as f:
         f.write(data)
         f.write("\n")
     print (data)
 
-def sensor_results_file(sensordata):
-    with open("rehydrateenvsens.csv", "a") as f:
-        f.write(sensordata)
+
+
+    # spectrometer results to outside folder RESULTSFOLDER 
+
+ def spectro_results_file(data): 
+     os.makedirs(results_directory, exist_ok=True)
+
+    
+    file_path = os.path.join(results_directory, "rehydrationspectro.csv")
+
+     with  open (file_path, "a") as f: 
+        f.write(data)
         f.write("\n")
-    print  (sensordata)
 
-def spectro_results_file(spectrodata):
-    with open("rehydratespectro.csv", "a") as f:
-        f.write(spectrodata)
+        print(data)
+
+# spectrometer results 
+
+def spectro_results(data):
+    with open("rehydrationspectrodata.csv", "a") as f:
+        f.write(data)
         f.write("\n")
-    print (spectrodata) 
+    print (data)
 
 
 
 
-def tcs_results_file(tcsdata):
-    with open("rehydratetcs.csv", "a") as f:
+#tcs results to outside folder RESULTS FOLDER 
+
+
+def tcs_results_file(tcsdata): 
+     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
+
+    # spectrometer results to outside folder RESULTSFOLDER 
+
+    file_path = os.path.join(results_directory, "rehydrationtcs.csv")
+
+     with  open (file_path, "a") as f: 
         f.write(tcsdata)
         f.write("\n")
-    print (tcsdata) 
+
+        print(tcsdata)
+
+# tcs results 
+
+def tcs_results(tcsdata):
+    with open("rehydrationtcsdata.csv", "a") as f: 
+        f.write(tcsdata)
+        f.write("\n")
+    print (tcsdata)
+
+ # camera picture files  to outside folder HERE (to be completed )
+
+
+
 
 
 
@@ -190,6 +290,10 @@ def task3():
 
     save_to_results_file(data_sensor1)
     sensor_results_file(data_sensor1)
+    sensor_results(data_sensor1)
+
+
+    save_to_housekeeping_file(data_sensor1)
 
 
     time.sleep(1)  #must be 60
@@ -204,6 +308,8 @@ def task3():
 
     save_to_results_file(data_sensor2)
     sensor_results_file(data_sensor2)
+    sensor_results(data_sensor2)
+    save_to_housekeeping_file(data_sensor2)
 
 
     time.sleep(1)   #must be 60
@@ -222,6 +328,8 @@ def task3():
 
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
+    spectro_results(data_spectro1)
+    save_to_housekeeping_file(data_spectro1)
 
 #Read sensor data from channel 2
 #Set the channel of the multiplexer to read data from spectro 2
@@ -235,6 +343,9 @@ def task3():
 
     save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
+    spectro_results(data_spectro2)
+
+    save_to_housekeeping_file(data_spectro1)
 
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
@@ -244,6 +355,9 @@ def task3():
  
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
+    spectro_results(data_spectro3)
+    save_to_housekeeping_file(data_spectro3)
+
 
 #SPECTRO4
 #CHANNEL 3 
@@ -257,6 +371,8 @@ def task3():
 
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
+    spectro_results(data_spectro4)
+    save_to_housekeeping_file(data_spectro4)
 
 
     time.sleep(1)  #must be 60
