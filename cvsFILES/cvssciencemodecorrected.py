@@ -105,7 +105,7 @@ def task1():
 
         save_to_results_file(data_tcs)
 
-        housekeeping_data(" TCS SCIENCE MODE ", data_tcsscience)
+        housekeeping_data("TCS SCIENCE MODE ", data_tcsscience)
 
 
 
@@ -196,13 +196,11 @@ def task5():
     data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 1, spectro1.channel_415nm, spectro1.channel_480nm, spectro1.channel_555nm
         )
-        save_to_results_file(data_spectro1)
-        spectro_results_file(data_spectro1)
+    save_to_results_file(data_spectro1)
+    spectro_results_file(data_spectro1)
 
 
-        save_to_housekeeping_file(data_spectro1)
-
-        time.sleep(300)  # Sleep for 300 seconds (5 minutes)
+    save_to_housekeeping_file(data_spectro1)
 
         
     spectro2= AS7341(mux[1])
