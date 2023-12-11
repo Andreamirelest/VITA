@@ -212,6 +212,10 @@ def task3():
 
     save_to_results_file(data_sensor1)
     sensor_results_file(data_sensor1)
+    sensor_results(data_sensor1)
+
+    save_to_housekeeping_file(data_sensor1)
+    housekeeping_data("Sensor1", data_sensor1)
 
     time.sleep(1) #must be 60
   
@@ -226,6 +230,12 @@ def task3():
 
     save_to_results_file(data_sensor2)
     sensor_results_file(data_sensor2)
+
+    sensor_results(data_sensor1)
+
+    save_to_housekeeping_file(data_sensor2)
+
+    housekeeping_data("Sensor2", data_sensor2)
 
     time.sleep(1)
 

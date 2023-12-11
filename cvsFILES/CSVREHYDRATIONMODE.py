@@ -80,6 +80,7 @@ from time import sleep
 # HOUSEKEEPING DATA 
 
 
+
 housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
 
 def save_to_housekeeping_file(data):
@@ -201,6 +202,9 @@ def tcs_results(tcsdata):
         f.write("\n")
     print (tcsdata)
 
+
+      
+
  # camera picture files  to outside folder HERE (to be completed )
 
 
@@ -215,7 +219,23 @@ def task1():
         #importing external codes (steppermotor &  TCS)	
         os.system("python STEPPERMOTOR_CLOCKWISE.py")
         time.sleep(1)
-        os.system("python V2FINALcsv.py")  # make sure to have V2 CODE IN csv format here 
+        os.system("python V2FINALcsv.py") 
+ 
+
+        os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here 
+        data_tcs = os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here # comment if code not working 
+
+        tcs_results_file(data_tcs)
+
+        tcs_results(data_tcs)
+
+        save_to_results_file(data_tcs)
+
+        housekeeping_data(" TCS REHYDRATION MODE ", data_tcsrehydration)
+
+
+
+
 
         tcs_results_file(tcsdata_tcs)
 
@@ -292,6 +312,8 @@ def task3():
     sensor_results_file(data_sensor1)
     sensor_results(data_sensor1)
 
+    housekeeping_data("Sensor1", data_sensor1)
+
 
     save_to_housekeeping_file(data_sensor1)
 
@@ -310,6 +332,7 @@ def task3():
     sensor_results_file(data_sensor2)
     sensor_results(data_sensor2)
     save_to_housekeeping_file(data_sensor2)
+    housekeeping_data("Sensor2", data_sensor2)
 
 
     time.sleep(1)   #must be 60
@@ -329,6 +352,11 @@ def task3():
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
     spectro_results(data_spectro1)
+
+    housekeeping_data("Spectro1", data_spectro1)
+
+
+
     save_to_housekeeping_file(data_spectro1)
 
 #Read sensor data from channel 2
@@ -345,6 +373,9 @@ def task3():
     spectro_results_file(data_spectro2)
     spectro_results(data_spectro2)
 
+
+    housekeeping_data("Spectro2", data_spectro2)
+
     save_to_housekeeping_file(data_spectro1)
 
 #SPECTRO3
@@ -356,6 +387,12 @@ def task3():
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
     spectro_results(data_spectro3)
+
+    housekeeping_data("Spectro3", data_spectro3)
+
+
+
+
     save_to_housekeeping_file(data_spectro3)
 
 
@@ -372,6 +409,12 @@ def task3():
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
     spectro_results(data_spectro4)
+
+    housekeeping_data("Spectro4", data_spectro4)
+
+
+
+
     save_to_housekeeping_file(data_spectro4)
 
 

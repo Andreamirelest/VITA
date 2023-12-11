@@ -77,31 +77,88 @@ def save_to_housekeeping_file(data):
     print(data)
 
 
-    
 
 # Housekeeping data function for each component
 def housekeeping_data(data):
     save_to_housekeeping_file(data)
 
 
+
+
+
+results_directory = “/path/to/RESULTSFOLDER/“
+
+def save_to_results_file(data): #try replacing filename with  DECOMMISSIONmode.csv if it does not work 
+
+#create folder in case it does not exist 
+
+    os.makedirs(results_directory, exist_ok=True)
+  
+    file_path = os.path.join(results_directory, "decommission.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)
+
+
 def save_to_results_file(data):
     with open("decommission.csv",  "a") as f:
         f.write(data)
         f.write("\n")
-        print (data)
+    print (data)
+      
 
-def sensor_results_file(sensordata):
-    with open("decomenvsens.csv", "a") as f:
-        f.write(sensordata)
+# evironmental sensors data to RESULTS FOLDER 
+
+# comment what does not work 
+
+def sensor_results_file(data): 
+
+    os.makedirs(results_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "decommissionenvsens.csv")
+
+    with  open (file_path, "a") as f: 
+        f.write(data)
         f.write("\n")
-        print (sensordata)
+
+        print(data)        
 
 
-def spectro_results_file(spectrodata):
-    with open("decomspectro.csv", "a") as f:
-        f.write(spectrodata)
+
+def sensor_results(data):
+    os.makedirs(resukts_directory, exist_ok=True)
+
+    file_path = os.path.join(results_directory, "decommissionenvsens.csv")
+
+    with open(file_path, "a") as f:      # comment it if not working 
+    with open("scienceenvsens.csv", "a") as f:
+        f.write(data)
         f.write("\n")
-    print (spectrodata)
+    print (data)
+
+ def spectro_results_file(data): 
+     os.makedirs(results_directory, exist_ok=True)
+
+    # spectrometer results to outside folder RESULTSFOLDER 
+
+    file_path = os.path.join(results_directory, "decommissionspectro.csv")
+
+     with  open (file_path, "a") as f: 
+        f.write(data)
+        f.write("\n")
+
+        print(data)
+
+# spectrometer results 
+
+def spectro_results(data):
+    with open("decommissionspectrodata.csv", "a") as f:
+        f.write(data)
+        f.write("\n")
+    print (data)
 
 
 
@@ -190,6 +247,15 @@ def task4():
     save_to_results_file(data_sensor1)
     sensor_results_file(data_sensor1)
 
+
+    sensor_results(data_sensor1)
+    
+    # Housekeeping For environmental sensors
+    
+    housekeeping_data("Sensor1", data_sensor1)
+
+
+
     time.sleep(1)  #must be 60
  
  
@@ -203,6 +269,16 @@ def task4():
 
     save_to_results_file(data_sensor2)
     sensor_results_file(data_sensor2)
+
+    sensor_results(data_sensor2)
+    
+
+    housekeeping_data("Sensor2", data_sensor2)
+
+
+
+
+
 
     time.sleep(1) #must be 60
 
@@ -224,6 +300,13 @@ def task5():
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
 
+    spectro_results(data_spectro1)
+
+
+
+    housekeeping_data("Spectrometer1", data_spectro1)
+
+
 #Read sensor data from channel 2
 #Set the channel of the multiplexer to read data from spectro 2
 
@@ -235,6 +318,9 @@ def task5():
  
     save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
+    spectro_results(data_spectro2)
+
+    housekeeping_data("Spectrometer2", data_spectro2)
     
 
 #SPECTRO3
@@ -246,6 +332,10 @@ def task5():
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
 
+    spectro_results(data_spectro3)
+
+    housekeeping_data("Spectrometer3", data_spectro3)
+
 #SPECTRO4
 #CHANNEL 3 
     spectro4= AS7341(mux[3])
@@ -254,6 +344,10 @@ def task5():
  
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
+
+    spectro_results(data_spectro4)
+
+    housekeeping_data("Spectrometer4", data_spectro4)
 
      
 
