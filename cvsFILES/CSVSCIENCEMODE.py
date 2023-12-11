@@ -223,6 +223,8 @@ def task1():
 
         save_to_results_file(data_tcs)
 
+        housekeeping_data(" TCS SCIENCE MODE ", data_tcsscience)
+
 
 
         time.sleep(1)
@@ -354,7 +356,7 @@ def task3():
 
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
-    spectro_results_file(data_spectro1)
+    spectro_results(data_spectro1)
 
     housekeeping_data("Spectrometer1", data_spectro1)
 
@@ -369,7 +371,7 @@ def task3():
 
     save_to_results_file(data_spectro2)
     spectro_results_file(data_spectro2)
-    spectro_results_file(data_spectro2)
+    spectro_results(data_spectro2)
 
     housekeeping_data("Spectrometer2", data_spectro2)
 
@@ -387,7 +389,7 @@ def task3():
  
     save_to_results_file(data_spectro3)
     spectro_results_file(data_spectro3)
-    spectro_results_file(data_spectro3)
+    spectro_results(data_spectro3)
 
 
     housekeeping_data("Spectrometer3", data_spectro3)
@@ -403,7 +405,7 @@ def task3():
 
     save_to_results_file(data_spectro4)
     spectro_results_file(data_spectro4)
-    spectro_results_file(data_spectro4)
+    spectro_results(data_spectro4)
 
 
 
