@@ -63,6 +63,10 @@ def spectro_results(data):
         f.write(data + "\n")
     print(data)
 
+
+
+
+
 # Task 1: Activate stepper motor clockwise in rehydration mode
 def task1():
 
@@ -84,7 +88,7 @@ def task1():
 
         save_to_results_file(data_tcs)
 
-        housekeeping_data(" TCS REHYDRATION MODE ", data_tcsrehydration)
+        housekeeping_data("TCS REHYDRATION MODE", data_tcsrehydration)
 
         tcs_results_file(tcsdata_tcs)
 
