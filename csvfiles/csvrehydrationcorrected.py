@@ -63,6 +63,31 @@ def spectro_results(data):
         f.write(data + "\n")
     print(data)
 
+
+def tcs_results_file(data): 
+    os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
+    file_path = os.path.join(results_directory, "rehydrationtcs.csv")
+
+     with  open (file_path, "a") as f: 
+        
+        f.write(data + "\n")
+        
+
+    print(tcsdata)
+
+# tcs results 
+
+def tcs_results(data):
+    with open("rehydrationtcsdata.csv", "a") as f: 
+        f.write(data)
+        f.write("\n")
+    print (data)
+
+
+
+
+
+
 # Task 1: Activate stepper motor clockwise in rehydration mode
 def task1():
 
