@@ -102,17 +102,13 @@ def task2():
     sleep(1)
 
 def task3():
-
-#add while loop if necessary
-
-
     i2c = board.I2C()
     mux = adafruit_tca9548a.TCA9548A(i2c)
 
     # Set up the BME688 sensors connected to channels 4 and 5 of the multiplexer
     sensor1 = adafruit_bme680.Adafruit_BME680_I2C(mux[7])
     sensor2 = adafruit_bme680.Adafruit_BME680_I2C(mux[6])
-    #time.sleep(1)
+    time.sleep(1)
 
     data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
         time.time(), 1, sensor1.temperature, sensor1.pressure, sensor1.humidity, sensor1.gas)
@@ -121,7 +117,7 @@ def task3():
     sensor_results_file(data_sensor1)
     sensor_results(data_sensor1)
     housekeeping_data("Sensor1", data_sensor1)
-   # time.sleep(1)
+    time.sleep(1)
 
 
 
@@ -132,7 +128,7 @@ def task3():
     sensor_results_file(data_sensor2)
     sensor_results(data_sensor2)
     housekeeping_data("Sensor2", data_sensor2)
-    time.sleep(1)  #must be 60
+    time.sleep(1)
 
 # threading
 thread1 = threading.Thread(target=task1)

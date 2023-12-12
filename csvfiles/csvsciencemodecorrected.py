@@ -6,7 +6,8 @@
 # CHANGES: THIS IS THE LAST UPDATE OF A CLEAN CODE 
 # Date: 7th July 2023
 # Modifier name: Andrea Mireles Tavarez
-# Description:THIS IS  UPDATE WAS MADE ON THE 12/DEC/2023 
+# Description:
+
 # Import necessary libraries
 import os
 import time
@@ -70,7 +71,7 @@ def tcs_results_file(data):
     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
     file_path = os.path.join(results_directory, "sciencestcs.csv")
 
-    with  open (file_path, "a") as f: 
+     with  open (file_path, "a") as f: 
         
         f.write(data + "\n")
         
@@ -79,7 +80,7 @@ def tcs_results_file(data):
 
 # tcs results 
 
-def tcs_results(tcsdata):
+def tcs_results(data):
     with open("sciencetcsdata.csv", "a") as f: 
         f.write(data)
         f.write("\n")
@@ -156,6 +157,10 @@ def task3():
 
 # Task 4: Read data from environmental sensors
 def task4():
+
+
+    # add while loop if necessary 
+
     i2c = board.I2C()
     mux = adafruit_tca9548a.TCA9548A(i2c)
 
@@ -163,26 +168,26 @@ def task4():
     sensor2 = adafruit_bme680.Adafruit_BME680_I2C(mux[6])
 
     
-    data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
+        data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 1, sensor1.temperature, sensor1.pressure, sensor1.humidity, sensor1.gas
         )
-    save_to_results_file(data_sensor1)
-    sensor_results_file(data_sensor1)
+        save_to_results_file(data_sensor1)
+        sensor_results_file(data_sensor1)
 
 
-    save_to_housekeeping_file(data_sensor1)
+        save_to_housekeeping_file(data_sensor1)
 
-        #time.sleep(60)  # Sleep for 60 seconds (1 minute)
+        time.sleep(60)  # Sleep for 60 seconds (1 minute)
 
-    data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
+        data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 2, sensor2.temperature, sensor2.pressure, sensor2.humidity, sensor2.gas
         )
-    save_to_results_file(data_sensor2)
-    sensor_results_file(data_sensor2)
+        save_to_results_file(data_sensor2)
+        sensor_results_file(data_sensor2)
 
-    save_to_housekeeping_file(data_sensor2)
+        save_to_housekeeping_file(data_sensor2)
 
-    time.sleep(60)  # Sleep for 60 seconds (1 minute)
+        time.sleep(60)  # Sleep for 60 seconds (1 minute)
 
 # Task 5: Read data from spectrometers
 def task5():
@@ -192,17 +197,16 @@ def task5():
     spectro1 = AS7341(mux[0])
 
     #while True:
-    data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format( time.time(), 1, spectro1.channel_415nm, spectro1.channel_480nm, spectro1.channel_555nm)
-
-
+    data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(
+            time.time(), 1, spectro1.channel_415nm, spectro1.channel_480nm, spectro1.channel_555nm
+        )
     save_to_results_file(data_spectro1)
     spectro_results_file(data_spectro1)
+
+
     save_to_housekeeping_file(data_spectro1)
 
-    
-    housekeeping_data("Spectrometer1", data_spectro1)
-
-    
+        
     spectro2= AS7341(mux[1])
     data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
  

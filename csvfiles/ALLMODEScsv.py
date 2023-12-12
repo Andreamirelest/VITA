@@ -24,7 +24,7 @@ import time
 
 #define the list of codes 
 
-code_files = ["STANDBYMODE.py","REHYDRATIONMODE.py","SCIENCEMODE.py","DECOMMISSIONMODE.py"]
+code_files = ["csvstandbymodecorrected.py","csvrehydrationmodecorrected.py","csvsciencemodecorrected.py","csvdecommissionmodecorrected.py"]
 
 
 #def main():
@@ -55,32 +55,32 @@ def main():
            # while True:
             
            # for code_file in code_files:
-            run_code("STANDBYMODE.py")
+            run_code("csvstandbymodecorrected.py")
 
             choice = input ("STANDBYMODE HAS BEEN SUCCESFUL! WOULD YOU LIKE TO CONTINUE TO REHYDRATION MODE? (yes/no):").lower()
             
         if choice == "yes":
-           run_code("REHYDRATIONMODE.py")
+           run_code("csvrehydrationmodecorrected.py")
        # elif choice == "sos"
            #run_code("SAFEMODE.py")
            choice = input ("REHYDRATION HAS BEEN SUCCESFUL! WOULD YOU LIKE TO CONTINUE TO SCIENCE MODE? (yes/no):").lower()
         if choice == "yes":
-           run_code("SCIENCEMODE.py")
+           run_code("csvsciencemodecorrected.py")
            choice = input ("SCIENCE MODE HAS BEEN COMPLETED SUCCESFULLY! WOULD YOU LIKE TO CONTINUE TO DECOMMISSION MODE? (yes/no):").lower()
         if choice == "yes":
-           run_code("DECOMMISSIONMODE.py")
+           run_code("csvdecommissionmodecorrected.py")
 
            print ("ALL MODES HAVE BEEN SUCCESFUL!")
                 
         elif choice =="no":
             while True:
-                code_choice = input("Which mode would you like to continue to ? (SAFE/STANDBY/REHYDRATION/SCIENCE/DECOMMISION):").upper()
+                code_choice = input("Which mode would you like to continue to ? (safe/standby/rehydration/science/decommission):").lower()
                # if code_choice in [f"{mode}MODE" for mode in ["STANDBY" , "REHYDRATION", "SCIENCE", "DECOMMISSION"]]:
                #     run_code(f"{code_choice.upper()}.py")
                     
                    
-                if code_choice in ["SAFE","STANDBY","REHYDRATION","SCIENCE","DECOMMISSION" ]:
-                    run_code(f"{code_choice.upper()}MODE.py")
+                if code_choice in ["safe","standby","rehydration","science","decommission" ]:
+                    run_code(f"csv{code_choice.lower()}modecorrected.py")
             break    
 #def main()                 
    # while True:
