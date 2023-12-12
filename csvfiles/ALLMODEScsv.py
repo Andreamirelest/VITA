@@ -45,7 +45,7 @@ def main():
         input("Press enter to start\n")
         print("Safe Mode will start as default mode")
 
-        if run_code("SAFEMODE.py"):
+        if run_code("csvsafemodecorrected.py"):
             choice = input("SAFE MODE HAS BEEN COMPLETED! WOULD YOU LIKE TO CONTINUE TO STANDBY MODE? (yes/no):").lower()
         
         
