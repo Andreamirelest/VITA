@@ -2,8 +2,6 @@
 # Title: CSVDECOMMISSIONMODE.py
 # Configuration item identifier:
 # Purpose:
-# The following code is a merged code from previous NEWread_environ_mux_data.py / NEWread_spec_mux_data.py / newLEDs.py
-# codes, the purpose of this code is for LEDs, environmental sensors, and spectrometers to work simultaneously.
 # CHANGES: THIS IS THE LAST UPDATE OF A CLEAN CODE 
 # Date: 7th July 2023
 # Modifier name: Andrea Mireles Tavarez
@@ -74,6 +72,9 @@ def task2():
         os.system("sh pi_cam_uc444.sh")
         time.sleep(1200)  # This should be 1200 (20 minutes)
 
+# TBC still missing to send camera files to cvs format 
+
+
 # Task 3: Control LEDs
 def task3():
     GPIO.setmode(GPIO.BCM)
@@ -121,7 +122,7 @@ def task4():
         save_to_results_file(data_sensor1)
         sensor_results_file(data_sensor1)
 
-        time.sleep(60)  # Sleep for 60 seconds (1 minute)
+       # time.sleep(60)  # Sleep for 60 seconds (1 minute)
 
         data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 2, sensor2.temperature, sensor2.pressure, sensor2.humidity, sensor2.gas
