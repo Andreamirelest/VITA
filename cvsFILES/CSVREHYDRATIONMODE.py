@@ -231,7 +231,7 @@ def task1():
 
         save_to_results_file(data_tcs)
 
-        housekeeping_data(" TCS REHYDRATION MODE ", data_tcsrehydration)
+        housekeeping_data("TCS REHYDRATION MODE ", data_tcsrehydration)
 
 
 
