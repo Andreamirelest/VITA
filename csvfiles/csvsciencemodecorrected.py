@@ -70,16 +70,13 @@ def tcs_results_file(data):
     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
     file_path = os.path.join(results_directory, "sciencestcs.csv")
 
-    with  open (file_path, "a") as f: 
-        
-        f.write(data + "\n")
-        
-
-    print(tcsdata)
+    with  open (file_path, "a") as f:         
+        f.write(data + "\n")       
+    print(data)
 
 # tcs results 
 
-def tcs_results(tcsdata):
+def tcs_results(data):
     with open("sciencetcsdata.csv", "a") as f: 
         f.write(data)
         f.write("\n")
@@ -104,7 +101,7 @@ def task1():
 
         save_to_results_file(data_tcs)
 
-        housekeeping_data("TCS SCIENCE MODE ", data_tcsscience)
+        housekeeping_data("TCS SCIENCE MODE", data_tcsscience)
 
 
 
@@ -155,6 +152,9 @@ def task3():
         sleep(1)
 
 # Task 4: Read data from environmental sensors
+
+#TBC include while loop here if necessary
+
 def task4():
     i2c = board.I2C()
     mux = adafruit_tca9548a.TCA9548A(i2c)

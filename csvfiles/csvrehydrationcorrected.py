@@ -64,18 +64,13 @@ def spectro_results(data):
     print(data)
 
 
-<<<<<<< HEAD:cvsFILES/csvrehydrationcorrected.py
-=======
+
 def tcs_results_file(data): 
     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
     file_path = os.path.join(results_directory, "rehydrationtcs.csv")
-
-     with  open (file_path, "a") as f: 
-        
+    with open(file_path, "a") as f: 
         f.write(data + "\n")
-        
-
-    print(tcsdata)
+    print (data)
 
 # tcs results 
 
@@ -87,7 +82,6 @@ def tcs_results(data):
 
 
 
->>>>>>> f9aa36e45d9ed574efa2a3f8b258eeaa2c02ba5d:csvfiles/csvrehydrationcorrected.py
 
 
 
@@ -162,7 +156,7 @@ def task4():
     sensor1 = adafruit_bme680.Adafruit_BME680_I2C(mux[7])
     sensor2 = adafruit_bme680.Adafruit_BME680_I2C(mux[6])
 
-    sleep(1)
+   # sleep(1)
 
     while True:
         data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
