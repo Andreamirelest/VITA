@@ -64,6 +64,30 @@ def spectro_results(data):
     print(data)
 
 
+<<<<<<< HEAD:cvsFILES/csvrehydrationcorrected.py
+=======
+def tcs_results_file(data): 
+    os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
+    file_path = os.path.join(results_directory, "rehydrationtcs.csv")
+
+     with  open (file_path, "a") as f: 
+        
+        f.write(data + "\n")
+        
+
+    print(tcsdata)
+
+# tcs results 
+
+def tcs_results(data):
+    with open("rehydrationtcsdata.csv", "a") as f: 
+        f.write(data)
+        f.write("\n")
+    print (data)
+
+
+
+>>>>>>> f9aa36e45d9ed574efa2a3f8b258eeaa2c02ba5d:csvfiles/csvrehydrationcorrected.py
 
 
 
