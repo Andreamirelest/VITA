@@ -23,9 +23,9 @@ while True:
     print(f"Captured and saved image to {output_folder}")
     
 #time.strftime("%Y%m%d%H%M%S"):uses the strftime function from the time module to format the current date and time into a string with a specific format. The format string "%Y%m%d%H%M%S" represents the year, month, day, hour, minute, and second. 
-    time.sleep(300)  # 300 seconds = 5 minutes
+    time.sleep(500)  # 300 seconds = 5 minutes
 
-
+    
 
 # Set GPIO pins as outputs
 subprocess.run(["raspi-gpio", "set", "4", "op"])
