@@ -71,18 +71,18 @@ def tcs_results_file(data):
     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
     file_path = os.path.join(results_directory, "sciencestcs.csv")
 
-<<<<<<< HEAD
+
      with  open (file_path, "a") as f: 
         
         f.write(data + "\n")
         
 
     print(tcsdata)
-=======
+
     with  open (file_path, "a") as f:         
         f.write(data + "\n")       
     print(data)
->>>>>>> 05dee4699c9de0b601c1dff3d28d215d6e82c20a
+
 
 # tcs results 
 
