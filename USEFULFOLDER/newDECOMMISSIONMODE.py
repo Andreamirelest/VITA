@@ -62,6 +62,14 @@ import adafruit_tca9548a
 import RPi.GPIO as GPIO
 from time import sleep
 
+#updates previous mode
+with open("lastMode.txt", "r+") as f:
+    f.seek(0)
+    f.truncate(0)
+    f.writelines("newDECOMISSIONMODE.py")
+    f.close()
+
+
 lineCounter = 0
 
 def save_to_results_file(data):

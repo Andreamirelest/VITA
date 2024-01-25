@@ -55,6 +55,15 @@ from cyclicDataTest import cyclicCheck
 import RPi.GPIO as GPIO
 from time import sleep
 
+#update previous file
+
+with open("lastMode.txt", "r+") as f:
+    f.seek(0)
+    f.truncate(0)
+    f.writelines("newSTANDBYMODE.py")
+    f.close()
+
+
 lineCounter = 0
 
 def save_to_results_file(data):

@@ -77,6 +77,18 @@ from time import sleep
  #   time.sleep(5)
 
 
+#run at start - save in science mode just incase of power loss
+#so will reboot straight into science mode
+
+with open("lastMode.txt", "r+") as f:
+    f.seek(0)
+    f.truncate(0)
+    f.writelines("newSCIENCEMODE.py")
+    f.close()
+
+
+
+
 
 def save_to_results_file(data):
     print ("Testing saving stuff")

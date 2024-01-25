@@ -68,6 +68,16 @@ import adafruit_tca9548a
 import RPi.GPIO as GPIO
 from time import sleep
 
+#Saves was in rehydrate mode
+#so restarts straight here if problem
+with open("lastMode.txt", "r+") as f:
+    f.seek(0)
+    f.truncate(0)
+    f.writelines("newREHYDRATIONMODE.py")
+    f.close()
+
+
+
 #IMPORT STEPPERMOTOR CLOCKWISE FOR REHYDRATION MODE
 
 #def task1():
