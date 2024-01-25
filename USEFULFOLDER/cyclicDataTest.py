@@ -1,7 +1,7 @@
 import os
 from collections import namedtuple
 
-cyclicThreashold = 300	#free remaining data limmit - currently randomly chosen number - need to set.
+
 _ntuple_diskusage = namedtuple("usage", "total used free")
 
 
@@ -12,7 +12,8 @@ def diskUsage(path):
 	used = ((st.f_blocks - st.f_bfree) * st.f_frsize)
 	return _ntuple_diskusage(total, used, free)
 
-def cyclicCheck(cyclicThreashold):
+def cyclicCheck():
+	cyclicThreashold = 300 		#free remaining data limmit - currently randomly chosen number - need to set
 	path = os.system("pwd")
 	available = diskUsage(path)
 	freeData = available[2]
