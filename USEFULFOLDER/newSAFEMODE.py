@@ -1,5 +1,4 @@
 # SAFE MODE CODE 
-
 import time 
 import _thread
 import os
@@ -28,23 +27,25 @@ def inputChecking(threadname):
 
     print("\nonly input direct commandline prompts or will break - i.e. don't open new windows / files\n")
     print("reboot - emergency restart")
+    print("watchdog - check watchdog status")
     print("exit - completely exit program to commanline")
     print("done - next mode \n")
 
     args = input("input:   ")
-
-    if args == "done":
-        keepLooping = False
-    elif args == "exit":
-        os.system("pkill python")
-    elif args == "reboot":
-        os.system("sudo reboot now")
-    else:
-        try:
+    try:
+        if args == "done":
+            keepLooping = False
+        elif args == "exit":
+            os.system("pkill python")
+        elif args == "reboot":
+            os.system("sudo reboot now")
+        elif args == "watchdog":
+            os.system("sudo systemctl status watchdog")
+        else:
             os.system(args)
-        except:
-            print("Command failed")
-        args = None
+    except:
+        print("Command failed")
+    args = None
 
 while keepLooping:
     print("SAFE MODE HAS BEEN ACTIVATED\n")
