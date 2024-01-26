@@ -28,6 +28,7 @@ def inputChecking(threadname):
     print("\nonly input direct commandline prompts or will break - i.e. don't open new windows / files\n")
     print("reboot - emergency restart")
     print("watchdog - check watchdog status")
+    print("update - update and reboot the pi")
     print("exit - completely exit program to commanline")
     print("done - next mode \n")
 
@@ -43,6 +44,10 @@ def inputChecking(threadname):
         elif args == "watchdog":
             os.system("sudo systemctl status watchdog")
             args = None
+        elif args == "update":
+            os.system("sudo apt-get update")
+            os.system("sudo apt-get upgrade")
+            os.system("sudo reboot now")
         else:
             print("not planned command, so running")
             os.system(args)
