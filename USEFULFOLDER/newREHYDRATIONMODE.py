@@ -30,9 +30,6 @@ import threading
 #print(cyclicCheck)
 
 
-
-
-
 #import for steppermotor
 #steppermnotor clockwise in rehydration mode
 #while True:
@@ -67,6 +64,7 @@ import adafruit_tca9548a
 
 import RPi.GPIO as GPIO
 from time import sleep
+
 
 #Saves was in rehydrate mode
 #so restarts straight here if problem
@@ -274,8 +272,9 @@ def task3():
     print ("THE CURRENT MODE IS REHYDRATE MODE ")
 
 
-#thread 
 
+#Can comment to test automatic transition.
+#thread 
 thread1 = threading.Thread(target = task1)
 thread2 = threading.Thread(target = task2)
 thread3 = threading.Thread(target = task3)

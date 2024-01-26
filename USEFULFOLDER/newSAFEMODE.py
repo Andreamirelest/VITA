@@ -34,6 +34,7 @@ def inputChecking(threadname):
     args = input("input:   ")
     try:
         if args == "done":
+            print("safe mode complete")
             keepLooping = False
         elif args == "exit":
             os.system("pkill python")
@@ -41,11 +42,17 @@ def inputChecking(threadname):
             os.system("sudo reboot now")
         elif args == "watchdog":
             os.system("sudo systemctl status watchdog")
+            args = None
         else:
+            print("not planned command, so running")
             os.system(args)
+            args = None
     except:
         print("Command failed")
-    args = None
+        args = None
+
+
+
 
 while keepLooping:
     print("SAFE MODE HAS BEEN ACTIVATED\n")
