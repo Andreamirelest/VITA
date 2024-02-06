@@ -4,13 +4,7 @@ import _thread
 import os
 import sys
 
-#STILL TO ADD
-#-need to have housekeeping data in this mode
-
-
-
 moveModes = ["newSCIENCEMODE.py", "newREHYDRATIONMODE.py"]
-
 #Checks if was previously in science / rehydrate mode - will move into those
 with open("lastMode.txt", "r+") as f:
     data = str(f.readlines()[0])
@@ -61,6 +55,7 @@ def inputChecking(threadname):
     except:
         print("Command failed")
         args = None
+
 
 
 
