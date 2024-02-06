@@ -30,8 +30,8 @@ import RPi.GPIO as GPIO
 from time import sleep
 
 # HOUSEKEEPING DATA
-housekeeping_directory = "/path/to/HOUSEKEEPINGFOLDER/"
-results_directory = "/path/to/RESULTSFOLDER/"
+housekeeping_directory = "HOUSEKEEPINGFOLDER/"
+results_directory = "RESULTSFOLDER"
 
 #Saves that was in rehydrate mode 
 #So restarts here if problems
@@ -44,55 +44,73 @@ with open("lastMode.txt", "r+") as f:
 
 
 def save_to_housekeeping_file(data):
+    print("within housekeeping")
     os.makedirs(housekeeping_directory, exist_ok=True)
     file_path = os.path.join(housekeeping_directory, "housekeepingrehydration.csv")
     print("printing the filepath")
     print(file_path)
-
+    print("data")
+    print(data)
     with open(file_path, "a") as f:
-        f.write(data + "\n")
+        f.write(str(data))
+        f.write("\n")
     print(data)
 
 def save_to_results_file(data):
+    print("within save results to file")
     os.makedirs(results_directory, exist_ok=True)
     file_path = os.path.join(results_directory, "rehydration.csv")
+    print("filepath")
+    print(file_path)
+    print("data")
+    print(data)
     with open(file_path, "a") as f:
-        f.write(data + "\n")
+        f.write(str(data))
+        f.write("\n")
     print(data)
 
 def sensor_results_file(data):
     os.makedirs(results_directory, exist_ok=True)
     file_path = os.path.join(results_directory, "rehydrationenvsens.csv")
     with open(file_path, "a") as f:
-        f.write(data + "\n")
+        f.write(str(data))
+        f.write("\n")
     print(data)
 
 def spectro_results_file(data):
     os.makedirs(results_directory, exist_ok=True)
     file_path = os.path.join(results_directory, "rehydrationspectro.csv")
     with open(file_path, "a") as f:
-        f.write(data + "\n")
+        f.write(str(data))
+        f.write("\n")
     print(data)
 
 def spectro_results(data):
     with open("rehydrationspectrodata.csv", "a") as f:
-        f.write(data + "\n")
+        f.write(str(data) + "\n")
     print(data)
 
 
 
-def tcs_results_file(data): 
+def tcs_results_file(data):
+    print("Within tcs results")
+    print("results directory = " + str(results_directory))
     os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
+    print("directory made")
     file_path = os.path.join(results_directory, "rehydrationtcs.csv")
+    print(file_path)
+    print("data")
+    print(data)
     with open(file_path, "a") as f: 
-        f.write(data + "\n")
+        f.write(str(data))
+        f.write("\n")
     print (data)
 
 # tcs results 
 
 def tcs_results(data):
     with open("rehydrationtcsdata.csv", "a") as f: 
-        f.write(data)
+        f.write(str(data))
         f.write("\n")
     print (data)
 
@@ -100,7 +118,6 @@ def tcs_results(data):
 
 # Task 1: Activate stepper motor clockwise in rehydration mode
 def task1():
-
 
         # importing external codes (steppermotor & TCS) 
         os.system("python STEPPERMOTOR_CLOCKWISE.py") 
