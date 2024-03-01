@@ -22,7 +22,7 @@ import board
 import busio
 import adafruit_tca9548a
 import adafruit_bme680
-from bme680 import BME680
+#from bme680 import BME680
 from adafruit_as7341 import AS7341
 import adafruit_tca9548a
 #import raspistill 

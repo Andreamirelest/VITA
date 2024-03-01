@@ -49,7 +49,8 @@ import board
 import busio
 import adafruit_tca9548a
 import adafruit_bme680
-from bme680 import BME680
+#you commented this one !!!!
+#from bme680 import BME680
 
 #imports for spectrometers
 

@@ -1,1 +1,1 @@
-newSCIENCEMODE.py
+newSTANDBYMODE.py
