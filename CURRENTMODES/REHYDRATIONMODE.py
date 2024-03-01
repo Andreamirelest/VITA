@@ -16,7 +16,7 @@ import threading
 import board
 import adafruit_tca9548a
 import adafruit_bme680
-from bme680 import BME680
+#from bme680 import BME680
 
 # Import required modules for environmental sensors
 from adafruit_as7341 import AS7341
