@@ -22,7 +22,7 @@ import board
 import busio
 import adafruit_tca9548a
 import adafruit_bme680
-from bme680 import BME680
+#from bme680 import BME680
 from adafruit_as7341 import AS7341
 import adafruit_tca9548a
 import RPi.GPIO as GPIO
@@ -61,84 +61,18 @@ def cyclicFileWriting(f, lineCounter, data):
     return lineCounter
 
 
-housekeeping_directory = "HOUSEKEEPINGFOLDER/"
-housekeepingLineCounter = 0
-standbyLineCounter = 0
-standbyenvsensLineCounter = 0
-standbyenvsensLineConuter = 0
+environmentalLineCounter = 0
 
+def saveEnvironmentalData(data):
+    global environmentalLineCounter
+    environment_directory = "CURRENTMODES\Environment"
 
-
-
-def save_to_housekeeping_file(data):
-    os.makedirs(housekeeping_directory, exist_ok=True)
-    file_path = os.path.join(housekeeping_directory, "housekeepingstandby.csv")
+    os.makedirs(environment_directory, exist_ok = True)
+    file_path = os.path.join(environment_directory, "environmentalData.csv")
     with open(file_path, "a") as f:
-        housekeepingLineCounter = cyclicFileWriting(f, housekeepingLineCounter, data)
-        
+        environmentalLineCounter = cyclicFileWriting(f, environmentalLineCounter, data)
     print(data)
 
-# Housekeeping data function for each component
-#def housekeeping_data(data):
-#    save_to_housekeeping_file(data)
-
-def housekeeping_data(component, data):
-    save_to_housekeeping_file(f"{component} status: {data}")
-
-
-results_directory = "RESULTSFOLDER/"
-
-def save_to_results_file(data): #try replacing filename with  Sciencemode.csv if it does not work 
-
-    #create folder in case it does not exist 
-    os.makedirs(results_directory, exist_ok=True)
-  
-    file_path = os.path.join(results_directory, "standby.csv")
-
-    with  open (file_path, "a") as f: 
-        standbyLineCounter = cyclicFileWriting(f, standbyLineCounter, data)
-
-
-
-def save_to_results_file(data):
-    with open("standby.csv",  "a") as f:
-        standbyLineCounter = cyclicFileWriting(f, standbyLineCounter, data)
-    print (data)
-      
-
-
-def save_to_results_file(data):
-    with open("standby.csv",  "a") as f: # Opening the file the data will be stored in
-        standbyLineCounter = cyclicFileWriting(f, standbyLineCounter, data)
-        print (data) 
-
-
-# evironmental sensors data to RESULTS FOLDER 
-
-# comment what does not work 
-
-def sensor_results_file(data): 
-
-    os.makedirs(results_directory, exist_ok=True)
-
-    file_path = os.path.join(results_directory, "standbyenvsens.csv")
-
-    with  open (file_path, "a") as f: 
-        standbyenvsensLineCounter = cyclicFileWriting(f, standbyenvsensLineCounter, data)
-
-        print(data)        
-
-
-
-def sensor_results(data):
-    os.makedirs(results_directory, exist_ok=True)
-
-    file_path = os.path.join(results_directory, "standbyenvsens.csv")
-
-    #with open(file_path, "a") as f:      # comment it if not working 
-    with open("scienceenvsens.csv", "a") as f:
-        standbyenvsensLineConuter = cyclicFileWriting(f, standbyenvsensLineConuter, data)
-    print (data)
 
 def task1():
     
@@ -146,8 +80,8 @@ def task1():
     time.sleep(5)
 
     # Housekeeping For  camera
-    camera_data = "Camera status: OK"
-    housekeeping_data("Camera", camera_data)
+    #camera_data = "Camera status: OK"
+    #housekeeping_data("Camera", camera_data)
 
 
 
@@ -205,12 +139,7 @@ def task3():
     
     data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(time.time(), 1, sensor1.temperature, sensor1.pressure, sensor1.humidity, sensor1.gas)
 
-    save_to_results_file(data_sensor1)
-    sensor_results_file(data_sensor1)
-    sensor_results(data_sensor1)
-
-    save_to_housekeeping_file(data_sensor1)
-    housekeeping_data("Sensor1", data_sensor1)
+    saveEnvironmentalData(data_sensor1)
 
     time.sleep(1) #must be 60
   
@@ -220,14 +149,8 @@ def task3():
     
     data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(time.time(), 2, sensor2.temperature, sensor2.pressure, sensor2.humidity, sensor2.gas)
 
-    save_to_results_file(data_sensor2)
-    sensor_results_file(data_sensor2)
+    saveEnvironmentalData(data_sensor2)
 
-    sensor_results(data_sensor1)
-
-    save_to_housekeeping_file(data_sensor2)
-
-    housekeeping_data("Sensor2", data_sensor2)
 
     time.sleep(1)
 

@@ -37,8 +37,6 @@ with open("lastMode.txt", "r+") as f:
 #To check remaining SD card storage below threshold.
 from cyclicDataTest import cyclicCheck
 
-
-
 def cyclicFileWriting(f, lineCounter, data):
     if cyclicCheck():
         try:
@@ -67,81 +65,39 @@ def cyclicFileWriting(f, lineCounter, data):
                 print ("Write Failed")
     return lineCounter
 
-# HOUSEKEEPING DATA
-housekeeping_directory = "HOUSEKEEPINGFOLDER/"
-results_directory = "RESULTSFOLDER/"
+environmentalLineCounter = 0
+spectroLineCounter = 0
+tcsLineCounter = 0
 
-housekeepingLineCounter = 0
-sciencemodeLineCounter = 0
-sciencemodeenvsensLineCounter = 0
-sciencemodespectroLineCounter = 0
-sciencespectrodataLineCounter = 0
-sciencestcsLineCounter = 0
-sciencetcsdataLineCounter = 0
+def saveEnvironmentalData(data):
+    global environmentalLineCounter
+    environment_directory = "CURRENTMODES\Environment"
 
-
-
-def save_to_housekeeping_file(data):
-    os.makedirs(housekeeping_directory, exist_ok=True)
-    file_path = os.path.join(housekeeping_directory, "housekeepingscience.csv")
+    os.makedirs(environment_directory, exist_ok = True)
+    file_path = os.path.join(environment_directory, "environmentalData.csv")
     with open(file_path, "a") as f:
-        housekeepingLineCounter = cyclicFileWriting(f, housekeepingLineCounter, data)
-
+        environmentalLineCounter = cyclicFileWriting(f, environmentalLineCounter, data)
     print(data)
 
-def housekeeping_data(component, data):
-    save_to_housekeeping_file(f"{component} status: {data}")
+def saveSpectrometerData(data, spectroNum):
+    global environmentalLineCounter
+    experiment_directory = "CURRENTMODES\Experiment"
 
-
-def save_to_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "sciencemode.csv")
+    os.makedirs(experiment_directory, exist_ok = True)
+    file_path = os.path.join(experiment_directory, "spectrometreData%s.csv" % str(spectroNum))
     with open(file_path, "a") as f:
-        sciencemodeLineCounter = cyclicFileWriting(f, sciencemodeLineCounter, data)
+        spectroLineCounter = cyclicFileWriting(f, spectroLineCounter, data)
     print(data)
 
-def sensor_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "sciencemodeenvsens.csv")
+def saveTcsData(data):
+    global tcsLineCounter
+    experiment_directory = "CURRENTMODES\Experiment"
+
+    os.makedirs(experiment_directory, exist_ok = True)
+    file_path = os.path.join(experiment_directory, "tcsData.csv")
     with open(file_path, "a") as f:
-        sciencemodeenvsensLineCounter = cyclicFileWriting(f, sciencemodeenvsensLineCounter, data)
+        tcsLineCounter = cyclicFileWriting(f, tcsLineCounter, data)
     print(data)
-
-def spectro_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "sciencemodespectro.csv")
-    with open(file_path, "a") as f:
-        sciencemodespectroLineCounter = cyclicFileWriting(f, sciencemodespectroLineCounter, data)
-    print(data)
-
-def spectro_results(data):
-    with open("sciencespectrodata.csv", "a") as f:
-        sciencespectrodataLineCounter = cyclicFileWriting(f, sciencespectrodataLineCounter, data)
-    print(data)
-
-
-
-#tcs results to outside folder RESULTS FOLDER 
-
-
-def tcs_results_file(data): 
-    os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
-    file_path = os.path.join(results_directory, "sciencestcs.csv")
-    with open(file_path, "a") as f: 
-        sciencestcsLineCounter = cyclicFileWriting(f, sciencestcsLineCounter, data)
-
-    print (data)
-
-    with open(file_path, "a") as f:    
-        sciencestcsLineCounter = cyclicFileWriting(f, sciencestcsLineCounter, data)      
-    print (data)
-
-
-# tcs results 
-
-def tcs_results(data):
-    with open("sciencetcsdata.csv", "a") as f: 
-        sciencetcsdataLineCounter = cyclicFileWriting(f, sciencetcsdataLineCounter, data)
 
 
 # Task 1: 
@@ -155,15 +111,7 @@ def task1():
         os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here 
         data_tcs = os.system("python V2FINALcsv.py") # make sure to have V2 CODE IN csv format here # comment if code not working 
 
-        tcs_results_file(data_tcs)
-
-        tcs_results(data_tcs)
-
-        save_to_results_file(data_tcs)
-
-        housekeeping_data("TCS SCIENCE MODE", data_tcs)
-
-
+        saveTcsData(data_tcs)
 
         time.sleep(1)
 
@@ -174,7 +122,7 @@ def task1():
 def task2():
     while True:
         os.system("sh pi_cam_uc444.sh")
-        time.sleep(1200)  # This should be 1200 (20 minutes)
+        #time.sleep(1200)  # This should be 1200 (20 minutes)
 
 
 
@@ -225,21 +173,16 @@ def task4():
 
     
     data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format (time.time(), 1, sensor1.temperature, sensor1.pressure, sensor1.humidity, sensor1.gas)
-    save_to_results_file(data_sensor1)
-    sensor_results_file(data_sensor1)
+    saveEnvironmentalData(data_sensor1)
 
-
-    save_to_housekeeping_file(data_sensor1)
-
-    time.sleep(60)  # Sleep for 60 seconds (1 minute)
+    #time.sleep(60)  # Sleep for 60 seconds (1 minute)
+    time.sleep(1)
 
     data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format (time.time(), 2, sensor2.temperature, sensor2.pressure, sensor2.humidity, sensor2.gas)
-    save_to_results_file(data_sensor2)
-    sensor_results_file(data_sensor2)
+    saveEnvironmentalData(data_sensor2)
 
-    save_to_housekeeping_file(data_sensor2)
-
-    time.sleep(60)  # Sleep for 60 seconds (1 minute)
+    #time.sleep(60)  # Sleep for 60 seconds (1 minute)
+    time.sleep(1)
 
 # Task 5: Read data from spectrometers
 def task5():
@@ -252,21 +195,13 @@ def task5():
     data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(
     time.time(), 1, spectro1.channel_415nm, spectro1.channel_480nm, spectro1.channel_555nm
         )
-    save_to_results_file(data_spectro1)
-    spectro_results_file(data_spectro1)
-
-
-    save_to_housekeeping_file(data_spectro1)
+    saveSpectrometerData(data_spectro1, 1)
 
         
     spectro2= AS7341(mux[1])
     data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
  
-    save_to_results_file(data_spectro2)
-    spectro_results_file(data_spectro2)
-    spectro_results(data_spectro2)
-
-    housekeeping_data("Spectrometer2", data_spectro2)
+    saveSpectrometerData(data_spectro2, 2)
     
 
 #SPECTRO3
@@ -275,12 +210,7 @@ def task5():
     data_spectro3 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),3,spectro3.channel_415nm,spectro3.channel_480nm,spectro3.channel_555nm)
 
  
-    save_to_results_file(data_spectro3)
-    spectro_results_file(data_spectro3)
-
-    spectro_results(data_spectro3)
-
-    housekeeping_data("Spectrometer3", data_spectro3)
+    saveSpectrometerData(data_spectro3, 3)
 
 #SPECTRO4
 #CHANNEL 3 
@@ -288,14 +218,7 @@ def task5():
     data_spectro4 ="{:.2f},{:d},{:.2f}.{:.2f},{:.2f}".format(time.time(),4,spectro4.channel_415nm,spectro4.channel_480nm,spectro4.channel_555nm)
 
  
-    save_to_results_file(data_spectro4)
-    spectro_results_file(data_spectro4)
-
-    spectro_results(data_spectro4)
-
-    housekeeping_data("Spectrometer4", data_spectro4)
-
-     
+    saveSpectrometerData(data_spectro4, 4)
 
     time.sleep(1) #must be 300
 
