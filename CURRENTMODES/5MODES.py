@@ -10,11 +10,10 @@ modeIndex = 0
 #automatically starts science mode
 def interupted(signum, frame):
     modeIndex += 1
-    
+
 signal.signal(signal.SIGALRM, interupted)
 
-#define the list of codes 
-
+#mode programs to move to via mode index
 code_files = ["STANDBYMODE.py","REHYDRATIONMODE.py","SCIENCEMODE.py","DECOMMISSIONMODE.py"]
 
 
@@ -23,24 +22,25 @@ def run_code(filename):
 
     try:
         os.system(f"python {filename}")
-        return True 
+        return True
     except Exception as e:
         print(f"An error has occured in {filename}: {e}")
-        return False 
+        return False
 
 
 def main():
     global modeIndex
-    
+
     rehydrateTimeout = 5 #Seconds allowed after rehydration mode finnishing before automatically moving to science mode.    
-    
+
     programs = ["SAFEMODE.py", "STANDBYMODE.py", "REHYDRATIONMODE.py", "SCIENCEMODE.py", "DECOMMISSIONMODE.py"]
 
     if run_code("BOOTLOADER.py"):
         print("Bootloader process successful")
+
     input("Press enter to start\n")
     print("Safe mode will start as default")
-    
+
     while True:
         if run_code(str(programs[modeIndex])):
             if modeIndex == 2:
