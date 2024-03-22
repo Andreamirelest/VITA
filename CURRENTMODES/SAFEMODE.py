@@ -21,7 +21,8 @@ with open("lastMode.txt", "r+") as f:
 args = None
 keepLooping = True
 
-def inputChecking(threadname):
+#used to take arguent "threadname", not sure why so removed
+def inputChecking():
     global keepLooping
     global args
 
@@ -49,24 +50,32 @@ def inputChecking(threadname):
             os.system("sudo apt-get upgrade")
             os.system("sudo reboot now")
         else:
-            print("not planned command, so running")
-            os.system(args)
+            print("not planned command, do you want to run a teminal command?")
+            answer = str(input())
+            if answer == "yes" or "y":
+                args = input("please retype your command to confirm")
+                os.system(args)
+            else:
+                print("returning to waiting for commands")
             args = None
     except:
         print("Command failed")
         args = None
 
 
+#Just run function if background tasks not needed.
+inputChecking()
 
 
-while keepLooping:
-    print("SAFE MODE HAS BEEN ACTIVATED\n")
-    try:
-        _thread.start_new_thread( inputChecking, ("UI",) )
-        while args==None:
-            pass;
-    except:
-        print("Thread error")
+#Use this bock if need threads to do stuff in background while waiting for user input.
+#while keepLooping:
+#    print("SAFE MODE HAS BEEN ACTIVATED\n")
+#    try:
+#        _thread.start_new_thread( inputChecking, ("UI",) )
+#        while args==None:
+#            pass;
+#    except:
+#        print("Thread error")
 
 
 #Previous Safe Mode

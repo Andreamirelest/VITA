@@ -40,6 +40,8 @@ from cyclicDataTest import cyclicCheck
 def cyclicFileWriting(f, lineCounter, data):
     if cyclicCheck():
         try:
+            print("data")
+            print(data
             f.write(data)
             f.write("\n")
         except:
@@ -75,6 +77,8 @@ def saveEnvironmentalData(data):
 
     os.makedirs(environment_directory, exist_ok = True)
     file_path = os.path.join(environment_directory, "environmentalData.csv")
+    print("File path")
+    print(file_path)
     with open(file_path, "a") as f:
         environmentalLineCounter = cyclicFileWriting(f, environmentalLineCounter, data)
     print(data)
@@ -85,6 +89,9 @@ def saveSpectrometerData(data, spectroNum):
 
     os.makedirs(experiment_directory, exist_ok = True)
     file_path = os.path.join(experiment_directory, "spectrometreData%s.csv" % str(spectroNum))
+    print("File path")
+    print(file_path)
+
     with open(file_path, "a") as f:
         spectroLineCounter = cyclicFileWriting(f, spectroLineCounter, data)
     print(data)
@@ -95,6 +102,8 @@ def saveTcsData(data):
 
     os.makedirs(experiment_directory, exist_ok = True)
     file_path = os.path.join(experiment_directory, "tcsData.csv")
+    print("file path")
+    print(file_path)
     with open(file_path, "a") as f:
         tcsLineCounter = cyclicFileWriting(f, tcsLineCounter, data)
     print(data)
@@ -114,8 +123,6 @@ def task1():
         saveTcsData(data_tcs)
 
         time.sleep(1)
-
-
 
 
 # Task 2: Activate camera every 20 minutes

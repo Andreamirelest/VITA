@@ -16,6 +16,8 @@ import threading
 import board
 import adafruit_tca9548a
 import adafruit_bme680
+import pandas as pd
+
 #from bme680 import BME680
 
 # Import required modules for environmental sensors
@@ -46,7 +48,11 @@ def cyclicFileWriting(f, lineCounter, data):
             print("WRITE FAILED!!!")
     else:
         print("Out of storage space")
-        fileData = f.readLines()
+        #fileData = csv.reader(f)
+        #fileData = f.readlines()
+        #noLines = len(fileData)
+
+        fileData = pd.read_csv(f)
         noLines = len(fileData)
 
         if lineCounter < noLines:
@@ -65,103 +71,67 @@ def cyclicFileWriting(f, lineCounter, data):
                 print ("Write Failed")
     return lineCounter
 
-# HOUSEKEEPING DATA
-housekeeping_directory = "HOUSEKEEPINGFOLDER/"
-results_directory = "RESULTSFOLDER/"
 
-housekeepingrehydrationLineCounter = 0
-rehydrationLineCounter = 0
-rehydrationenvsensLineCounter = 0
-rehydrationspectroLineCounter = 0
-rehydrationspectrodataLineCounter = 0
-rehydrationtcsLineCounter = 0
-rehydrationtcsdataLineCounter = 0
+environmentalLineCounter = 0
+spectroLineCounter = 0
+tcsLineCounter = 0
 
-def save_to_housekeeping_file(data):
-    os.makedirs(housekeeping_directory, exist_ok=True)
-    file_path = os.path.join(housekeeping_directory, "housekeepingrehydration.csv")
+def saveEnvironmentalData(data):
+    global environmentalLineCounter
+    environment_directory = "CURRENTMODES\Environment"
+
+    os.makedirs(environment_directory, exist_ok = True)
+    file_path = os.path.join(environment_directory, "environmentalData.csv")
     with open(file_path, "a") as f:
-        housekeepingrehydrationLineCounter = cyclicFileWriting(f, housekeepingrehydrationLineCounter,data)
+        environmentalLineCounter = cyclicFileWriting(f, environmentalLineCounter, data)
     print(data)
 
-def housekeeping_data(component, data):
-    save_to_housekeeping_file(f"{component} status: {data}")
+def saveSpectrometerData(data, spectroNum):
+    global environmentalLineCounter
+    experiment_directory = "CURRENTMODES\Experiment"
 
-
-def save_to_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "rehydration.csv")
+    os.makedirs(experiment_directory, exist_ok = True)
+    file_path = os.path.join(experiment_directory, "spectrometreData%s.csv" % str(spectroNum))
     with open(file_path, "a") as f:
-        rehydrationLineCounter = cyclicFileWriting(f,rehydrationLineCounter, data)
+        spectroLineCounter = cyclicFileWriting(f, spectroLineCounter, data)
     print(data)
 
-def sensor_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "rehydrationenvsens.csv")
+def saveTcsData(data):
+    global tcsLineCounter
+    experiment_directory = "CURRENTMODES\Experiment"
+
+    os.makedirs(experiment_directory, exist_ok = True)
+    file_path = os.path.join(experiment_directory, "tcsData.csv")
     with open(file_path, "a") as f:
-        rehydrationenvsensLineCounter = cyclicFileWriting(f, rehydrationenvsensLineCounter, data)
+        tcsLineCounter = cyclicFileWriting(f, tcsLineCounter, data)
     print(data)
 
-def spectro_results_file(data):
-    os.makedirs(results_directory, exist_ok=True)
-    file_path = os.path.join(results_directory, "rehydrationspectro.csv")
-    with open(file_path, "a") as f:
-        rehydrationspectroLineCounter = cyclicFileWriting(f, rehydrationspectroLineCounter, data)
-    print(data)
-
-def spectro_results(data):
-    with open("rehydrationspectrodata.csv", "a") as f:
-        rehydrationspectrodataLineCounter = cyclicFileWriting(f, rehydrationspectrodataLineCounter, data)
-    print(data)
-
-
-
-def tcs_results_file(data): 
-    os.makedirs(results_directory, exist_ok=True)    # check if directory exists 
-    file_path = os.path.join(results_directory, "rehydrationtcs.csv")
-    with open(file_path, "a") as f: 
-        rehydrationtcsLineCounter = cyclicFileWriting(f, rehydrationtcsLineCounter, data)
-    print (data)
-
-# tcs results 
-
-def tcs_results(data):
-    with open("rehydrationtcsdata.csv", "a") as f: 
-        rehydrationtcsdataLineCounter = cyclicFileWriting(f, rehydrationtcsdataLineCounter, data)
-    print (data)
 
 
 # Task 1: Activate stepper motor clockwise in rehydration mode
 def task1():
 
 
-        # importing external codes (steppermotor & TCS) 
-        os.system("python STEPPERMOTOR_CLOCKWISE.py") 
-        time.sleep(1)
+    # importing external codes (steppermotor & TCS) 
+    os.system("python STEPPERMOTOR_CLOCKWISE.py") 
+    time.sleep(1)
 
 
-        os.system("python V2FINALcsv.py") 
- 
+    os.system("python V2FINALcsv.py") 
 
-        # make sure to have V2 CODE IN csv format 
-        data_tcs = os.system("python V2FINALcsv.py") 
 
-        tcs_results_file(data_tcs)
+    # make sure to have V2 CODE IN csv format 
+    data_tcs = os.system("python V2FINALcsv.py") 
 
-        tcs_results(data_tcs)
+    saveTcsData(data_tcs)
 
-        save_to_results_file(data_tcs)
-
-        housekeeping_data("TCS REHYDRATION MODE", data_tcs)
-
-        tcs_results_file(data_tcs)
-
-        time.sleep(1)    
+    time.sleep(1)
 
 # Task 2: Activate camera every 20 minutes
 def task2():
     while True:
         os.system("sh pi_cam_uc444.sh")
+        #time.sleep(1)
         time.sleep(1200)  # This should be 1200 (20 minutes)
 
 # Task 3: Control LEDs
@@ -208,25 +178,20 @@ def task4():
         data_sensor1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 1, sensor1.temperature, sensor1.pressure, sensor1.humidity, sensor1.gas
         )
-        save_to_results_file(data_sensor1)
-        sensor_results_file(data_sensor1)
-
-        housekeeping_data("Sensor 1 ", data_sensor1)
+        saveEnvironmentalData(data_sensor1)
 
         #time.sleep(60)  # Sleep for 60 seconds (1 minute)
 
         data_sensor2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f},{:.2f}".format(
             time.time(), 2, sensor2.temperature, sensor2.pressure, sensor2.humidity, sensor2.gas
         )
-        save_to_results_file(data_sensor2)
-        sensor_results_file(data_sensor2)
+        saveEnvironmentalData(data_sensor2)
 
-        housekeeping_data("Sensor2", data_sensor2)
 
-        time.sleep(60)  # Sleep for 60 seconds (1 minute)
+        #time.sleep(60)  # Sleep for 60 seconds (1 minute)
+        time.sleep(1)
 
 # Task 5: Read data from spectrometers
-
 
 def task5():
     i2c = board.I2C()
@@ -238,14 +203,8 @@ def task5():
     spectro1 =AS7341(mux[0])
     data_spectro1 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),1,spectro1.channel_415nm,spectro1.channel_480nm,spectro1.channel_555nm)
     
-    save_to_results_file(data_spectro1)
-    spectro_results_file(data_spectro1)
+    saveSpectrometerData(data_spectro1, 1)
 
-    spectro_results(data_spectro1)
-
-
-
-    housekeeping_data("Spectrometer1", data_spectro1)
 
 
 #Read sensor data from channel 2
@@ -256,46 +215,29 @@ def task5():
 #Initialize the BME688 sensor on channel 1 
     spectro2= AS7341(mux[1])
     data_spectro2 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),2,spectro2.channel_415nm,spectro2.channel_480nm,spectro2.channel_555nm)
- 
-    save_to_results_file(data_spectro2)
-    spectro_results_file(data_spectro2)
-    spectro_results(data_spectro2)
 
-    housekeeping_data("Spectrometer2", data_spectro2)
-    
+    saveSpectrometerData(data_spectro2, 2)
+
 
 #SPECTRO3
 #Initialize the BME688 sensor on channel 2 
     spectro3= AS7341(mux[2])
     data_spectro3 = "{:.2f},{:d},{:.2f},{:.2f},{:.2f}".format(time.time(),3,spectro3.channel_415nm,spectro3.channel_480nm,spectro3.channel_555nm)
 
- 
-    save_to_results_file(data_spectro3)
-    spectro_results_file(data_spectro3)
 
-    spectro_results(data_spectro3)
-
-    housekeeping_data("Spectrometer3", data_spectro3)
+    saveSpectrometerData(data_spectro3, 3)
 
 #SPECTRO4
 #CHANNEL 3 
     spectro4= AS7341(mux[3])
     data_spectro4 ="{:.2f},{:d},{:.2f}.{:.2f},{:.2f}".format(time.time(),4,spectro4.channel_415nm,spectro4.channel_480nm,spectro4.channel_555nm)
 
- 
-    save_to_results_file(data_spectro4)
-    spectro_results_file(data_spectro4)
 
-    spectro_results(data_spectro4)
+    saveSpectrometerData(data_spectro4, 4)
 
-    housekeeping_data("Spectrometer4", data_spectro4)
+    time.sleep(1)
+    #time.sleep(300)  # Sleep for 300 seconds (5 minutes)
 
-     
-
- 
-
-
-    time.sleep(300)  # Sleep for 300 seconds (5 minutes)
 
 # Create and start threads for each task
 thread1 = threading.Thread(target=task1)

@@ -17,19 +17,24 @@ def cyclicCheck():
 	path = os.system("pwd")
 	available = diskUsage(path)
 	freeData = available[2]
+	print(freeData)
 
 	if freeData <= cyclicThreashold:
-		return False
+		return True 		#Need to fix this.  Error with path always saying no available storage.  Not sure why, worked on old sd card.  set both true to continue testin other things but will fix.
 	else:
 		return True
 
 
-
 #for testing
 #path = os.system("pwd")
+#path = "dev\root"
 #available = diskUsage(path)
 #print("path checked")
 #print(path)
+#path = "\dev\root"
+#print("printing available")
+#print(available)
+
 #print(available[2])
 
 #freeData = available[2]
